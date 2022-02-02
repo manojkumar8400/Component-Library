@@ -1,0 +1,32 @@
+*{
+    box-sizing:border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    line-height:2;
+}
+:root{
+    --white:#fff;
+    --black:black;
+    --primary-color:blue;
+    --light-gray:lightgray;
+    --dark-gray:darkgray;
+    --secondary-color:gray;
+    --header:#a2d2ff;
+    --dark-color:#8eecf5;
+
+    /* font color */
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+ul,ol{
+    list-style: none;
+}
+button:hover{
+    box-shadow: 5px 10px 5px var(--light-gray);
+    cursor: pointer;
+}
