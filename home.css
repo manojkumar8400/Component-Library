@@ -3,30 +3,13 @@
 .main-container{
     position: relative;
 }
-.nav{
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    background-color: var(--header);
-    position: relative;
-    padding: 20px;
-    font-size: 22px;
-    border-radius: 0 0 15px 15px;
-}
-.nav-list{
-    display: grid;
-    grid-template-columns: repeat(3,100px);
-    position: absolute;
-    right: 1%;
-    top: 20px;
-}
-.link{
-    font-size: 25px;
-}
+
 .sec-intro{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-content: center;
 }
+
 .intro-img{
     width: 45%;;
     height: 50vh;
@@ -35,19 +18,23 @@
     top: 210px;
     border-radius: 10px;
 }
+
 .txt-container{
     width: 50%;
     position: absolute;
     top: 310px;
     text-align: center;
 }
+
 .txt-heading{
     font-size: 45px;
 }
+
 .txt-para{
     font-size: 25px;
     font-family: 'Playfair Display', serif;
 }
+
 .btn{
     margin-top: 50px;
     font-size: 32px;
@@ -55,6 +42,7 @@
     border-radius: 10px;
     border: 3px solid var(--black);
 }
+
 .footer{
     display: grid;
     grid-template-rows: 50px 70px;
@@ -62,17 +50,20 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top:86vh;
+    top:73vh;
     padding: 12px;
     background-color: var(--header);
 }
+
 .primary-txt{
     font-weight: 500;
     text-align: center;
 }
+
 .footer-link{
     font-size: 25px;
 }
+
 .footer-icon{
     width: 50px;
     height: 50px;

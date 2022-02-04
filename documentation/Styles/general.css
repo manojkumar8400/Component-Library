@@ -15,9 +15,10 @@ html,body{
     --secondary-color:gray;
     --header:#a2d2ff;
     --dark-color:#8eecf5;
-
-    /* font color */
-
+    --danger:red;
+    --warning:yellow;
+    --success:green;
+    --info:blue;
 }
 a{
     text-decoration: none;
@@ -29,4 +30,87 @@ ul,ol{
 button:hover{
     box-shadow: 5px 10px 5px var(--light-gray);
     cursor: pointer;
+}
+
+
+@import url("avatar/general.css");
+
+.nav{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: var(--header);
+    position: relative;
+    padding: 20px;
+    font-size: 22px;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.nav-header{
+    font-size: 30px;
+    margin-left: 1.5rem;
+}
+.nav-list{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    position: absolute;
+    right: 1%;
+    top: 20px;
+}
+.link{
+    font-size: 25px;
+}
+
+/*          Side bar     */
+
+.side-bar{
+    text-align: center;
+    border-right: 5px solid black;
+    padding-top: 8rem;
+    line-height: 55px;
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+}
+
+.side-bar-heading{
+    margin-bottom: 1rem;
+}
+
+.side-bar li{
+    margin: 5px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.side-bar li:hover{
+    background-color: var(--light-gray);
+    border-radius: 25px;
+}
+
+.body-container{
+    margin:0 1rem;
+    padding-top: 5rem;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+/*              footer   */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 7rem;
+    margin-bottom: .5rem;
+}
+.footer-btn{
+    font-size: 32px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 3px solid var(--black); 
 }
