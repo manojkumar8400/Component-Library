@@ -37,8 +37,6 @@ button:hover {
     cursor: pointer;
 }
 
-@import url("avatar/general.css");
-
 .nav {
     display: grid;
     grid-template-columns: 200px 1fr;
