@@ -1,0 +1,87 @@
+@import '/documentation/Styles/general.css';
+
+@media screen and (max-width: 850px) {
+    html {
+        font-size: 14px;
+    }
+
+    .side-bar {
+        margin-top: 40px;
+    }
+
+    .body-container {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    html {
+        font-size: 11px;
+    }
+
+    .code-container {
+        display: none;
+    }
+
+    .footer-btn {
+        font-size: 22px;
+    }
+}
+
+.alert-btn {
+    background-color: var(--header);
+    border-radius: 25px;
+}
+
+.body-container {
+    margin-left: 1rem;
+    position: relative;
+}
+
+.alert {
+    font-size: 1.1rem;
+    margin: 1.1rem .6rem;
+    width: 60%;
+    border-radius: .8rem;
+}
+
+.alert h3 {
+    padding-bottom: 18px;
+}
+
+.danger {
+    background-color: var(--danger);
+}
+
+.warning {
+    background-color: var(--warning);
+}
+
+.success {
+    background-color: var(--success);
+}
+
+.info {
+    background-color: var(--info);
+    color: var(--white);
+    position: relative;
+}
+
+.light {
+    background-color: var(--white);
+    border: 2px solid;
+}
+
+.dark {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.alert-icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    margin: 0 .6rem;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+}
