@@ -1,0 +1,127 @@
+@import "/documentation/Styles/general.css";
+
+@media screen and (max-width: 830px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    html {
+        font-size: 11px;
+    }
+
+    .code-cntnr {
+        display: none;
+    }
+
+    .footer-btn {
+        font-size: 1.4rem;
+    }
+}
+
+#card-compo {
+    background-color: var(--header);
+    border-radius: 1.4rem;
+}
+
+.code-cntnr {
+    margin-top: 1.5rem;
+}
+
+.body-container {
+    margin-top: 2rem;
+}
+
+/*      Card With badge */
+
+.card {
+    background-color: var(--card-bg-clr);
+    width: 26rem;
+    border: 2px solid var(--danger);
+    border-radius: 0 1.3rem 0 1.3rem;
+    position: relative;
+    margin: 1rem;
+}
+
+.nature-img {
+    width: 92%;
+    margin: 0.7rem 0 0 1.1rem;
+    border-radius: .7rem;
+}
+
+.tourist-badge {
+    width: 3rem;
+    position: absolute;
+    top: .7rem;
+    left: 1.1rem;
+}
+
+.pic-title {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 530;
+}
+
+.about-nature {
+    margin: 0 1.2rem;
+}
+
+/*      Card With Dismiss */
+
+.dismiss-icon {
+    position: absolute;
+    background-color: var(--white);
+    padding: .4rem .6rem;
+    border-radius: 50%;
+    font-weight: bold;
+    top: .6rem;
+    right: .9rem;
+}
+
+.dismiss-icon:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+/*      Cards with text overlay     */
+
+.text-overlay {
+    color: var(--white);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+}
+
+/*      Horizental cards      */
+
+.nature-img-hr {
+    width: 92%;
+    height: 35vh;
+    border-radius: .8rem;
+    margin: 6px 0 0 6px;
+}
+
+.horigental-card {
+    display: grid;
+    height: 38vh;
+    grid-template-columns: 1fr 2fr;
+    padding: .4rem;
+    background-color: var(--card-bg-clr);
+    border: 2px solid var(--danger);
+    border-radius: 0 1.2rem 0 1.2rem;
+    position: relative;
+}
+
+.hr-crd-txt {
+    overflow: auto;
+}
+
+/*      Card with shadow */
+
+.card-shadow {
+    box-shadow: 7px 7px 8px var(--black);
+}
