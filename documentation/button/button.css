@@ -1,0 +1,140 @@
+@import "/documentation/Styles/general.css";
+
+@media screen and (max-width: 820px){
+    html{
+        font-size: 14px;
+    }
+    .body-container {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    html{
+        font-size: 11px;
+    }
+    .code-cntnr{
+        display: none;
+    }
+    .footer-btn {
+        font-size: 1.4rem;
+    }
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.link a {
+    text-decoration: underline;
+}
+
+.code-cntnr {
+    margin-top: 1rem;
+}
+
+#btn-compo {
+    background-color: var(--header);
+    border-radius: 1.4rem;
+}
+
+.hr-line {
+    margin-top: 1rem;
+}
+
+/*      Primary Button */
+
+.primary-btn-1 {
+    background-color: blue;
+    padding: 1rem 1.8rem;
+    color: var(--white);
+}
+
+.primary-btn-2 {
+    padding: 1rem 1.8rem;
+    border-radius: .6rem;
+    color: blue;
+    border: 3px solid blue;
+    margin: 0 1rem;
+}
+
+.primary-btn-3 {
+    background-color: blue;
+    padding: 1rem 1.8rem;
+    border-radius: 2rem;
+    color: var(--white);
+}
+
+/*      Link Button */
+
+.link-btn-1 {
+    padding: .9rem 2rem;
+    background-color: var(--dark-gray);
+}
+
+.link-btn-2 {
+    padding: .9rem 2rem;
+    margin: 0 1rem;
+    border-radius: .6rem;
+    border: 3px solid var(--secondary-color);
+}
+
+.link-btn-3 {
+    padding: .9rem 2rem;
+    border-radius: 2rem;
+    border: 3px solid var(--secondary-color);
+}
+
+/*             Disable, Enable Button */
+
+.disable-btn {
+    padding: .9rem 2rem;
+    background-color: var(--danger);
+    color: var(--white);
+    opacity: 0.6;
+}
+
+.disable-btn:hover {
+    cursor: not-allowed;
+}
+
+.non-disable-btn {
+    padding: .9rem 2rem;
+    color: var(--white);
+    background-color: green;
+    margin: 0 1rem;
+}
+
+/*              icon btn */
+
+.home-btn-icon {
+    font-size: 2rem;
+    border: none;
+    background-color: var(--white);
+}
+
+.heart-btn-icon {
+    margin: 0 3rem;
+    font-size: 2rem;
+    border: none;
+    background-color: var(--white);
+}
+
+/*              Floating Button */
+
+.float-save-btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: bold;
+    padding: 1rem 1.4rem;
+    border-radius: 1rem;
+}
+
+.float-add-btn {
+    background-color: blue;
+    color: white;
+    font-size: 2.3rem;
+    padding: .7rem 1.4rem;
+    border-radius: 50%;
+    margin:0 1rem;
+}

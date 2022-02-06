@@ -27,7 +27,7 @@
 
 }
 
-.side-badge-btn {
+#side-badge-btn {
     background-color: var(--header);
     border-radius: 25px;
 }

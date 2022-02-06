@@ -28,7 +28,7 @@
     }
 }
 
-.alert-btn {
+#alert-btn {
     background-color: var(--header);
     border-radius: 25px;
 }
