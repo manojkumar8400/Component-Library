@@ -1,0 +1,146 @@
+@import "/documentation/Styles/general.css";
+
+@media screen and (max-width: 824px) {
+    html {
+        font-size: 14px;
+    }
+
+    .side-bar {
+        margin-top: 40px;
+    }
+
+    .body-container {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    html{
+        font-size: 11px;
+    }
+    .code-container{
+        display: none;
+    }
+    .footer-btn {
+        font-size: 1.4rem;
+    }
+
+}
+
+.side-badge-btn {
+    background-color: var(--header);
+    border-radius: 25px;
+}
+
+.badge-section {
+    margin-top: 3rem;
+}
+
+.para {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.txt {
+    position: relative;
+}
+
+.sm-badge-on-txt {
+    background-color: var(--dark-color);
+    padding: 0 10px;
+    border-radius: 50%;
+    font-size: .7rem;
+    position: absolute;
+    font-weight: bold;
+    bottom: 15px;
+}
+
+.active-btn {
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.badge-on-active-btn {
+    background-color: var(--dark-color);
+    padding: 7px 12px;
+    border-radius: 50%;
+    font-size: .8rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 38px;
+}
+
+.home-icon {
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.badge-on-home-icon {
+    background-color: var(--dark-color);
+    padding: 0 13px;
+    border-radius: 50%;
+    font-size: .9rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 22px;
+    left: 20px;
+}
+
+.avtr-cont{
+    position: relative;
+}
+.onln-dot-badge-avtr {
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid var(--dark-gray);
+}
+
+.dot-badge {
+    background-color: green;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 18px;
+    right: 6px;
+    border: 3px solid var(--white);
+}
+
+.onln-brdr-badge-avtr {
+    margin-left: 30px;
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+.ofln-tm-badge-avtr {
+    margin-top: 30px;
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid var(--dark-gray);
+}
+
+.ofln-tm-badge {
+    background-color: green;
+    border: 3px solid var(--white);
+    color: var(--white);
+    border-radius: 40%;
+    font-size: 15px;
+    padding: 0px 7px;
+    position: absolute;
+    bottom: 10px;
+    right: -10px;
+}
+
+.ofln-brdr-badge-avtr {
+    margin-left: 30px;
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid var(--danger);
+}
