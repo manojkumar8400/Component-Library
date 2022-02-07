@@ -21,6 +21,7 @@ html, body {
     --warning: yellow;
     --success: green;
     --info: blue;
+    --card-bg-clr:rgb(201, 230, 240)
 }
 
 a {
