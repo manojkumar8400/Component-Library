@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/documentation/input/input.css">
+    <title>Input</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="/index.html" class="link">
+            <span class="nav-header">🏠</span>
+        </a>
+        <ul class="nav-list">
+            <li><a class="link" target="_blank" href="https://github.com/manojkumar8400">
+                    Github
+                </a>
+            </li>
+            <li><a class="link" target="_blank" href="https://twitter.com/@manoj21_kumar">
+                    Twitter
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main-container">
+        <ul class="side-bar">
+            <h2 class="side-bar-heading">Components</h2>
+            <li><a href="/documentation/avatar/avatar.html">Avatar</a> </li>
+            <li><a href="/documentation/alert/alert.html">Alert</a></li>
+            <li><a href="/documentation/badge/badge.html">Badge</a></li>
+            <li><a href="/documentation/button/button.html">Button</a></li>
+            <li><a href="/documentation/card/card.html">Card</a></li>
+            <li><a href="/documentation/image-comp/image.html">Image</a></li>
+            <li id="input-compo"><a href="/documentation/input/input.html">Input</a></li>
+            <li><a href="">List</a></li>
+            <li><a href="">Navigation</a></li>
+            <li><a href="">Modal</a></li>
+        </ul>
+        <div class="body-container">
+            <h2>Input type</h2>
+            <section>
+                <h3>Textbox Input -:</h3>
+                <label class="input-label">First Name</label>
+                <input type="text" class="input" placeholder="Enter first name">
+                <label class="input-label">Last Name</label>
+                <input type="text" class="input" placeholder="Enter last name">
+            </section>
+            <div class="code-cntnr">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522input-label%2522%253EFirst%2520Name%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520first%2520name%2522%253E%250A%253Clabel%2520class%253D%2522input-label%2522%253ELast%2520Name%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520last%2520name%2522%253E"
+                    style="width: 690px; height: 266px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <hr>
+            <section>
+                <h3>Validation and Error style password -:</h3>
+                <label class="input-label">Password</label>
+                <input type="password" class="input valid-inpt" placeholder="Enter password">
+                <div class="valid-pass">valid</div>
+                <input type="password" class="input invld-inpt" placeholder="Confirm password">
+                <div class="invld-pass">Not Matching</div>
+            </section>
+            <div class="code-cntnr">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522input-label%2522%253EPassword%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input%2520valid-inpt%2522%2520placeholder%253D%2522Enter%2520password%2522%253E%250A%253Cp%2520class%253D%2522valid-pass%2522%253Evalid%253C%252Fp%253E%250A%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input%2520invld-inpt%2522%2520placeholder%253D%2522Confirm%2520password%2522%253E%250A%253Cp%2520class%253D%2522invld-pass%2522%253ENot%2520Matching%253C%252Fp%253E"
+                    style="width: 816px; height: 285px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <hr>
+            <section>
+                <h3>Textarea Input -:</h3>
+                <textarea class="input" cols="30" rows="5" placeholder="Enter here ..."></textarea>
+            </section>
+            <div class="code-cntnr">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch3%253ETextarea%2520Input%253C%252Fh3%253E%250A%253Ctextarea%2520class%253D%2522input%2522%2520cols%253D%252230%2522%2520rows%253D%25225%2522%253E%253C%252Ftextarea%253E"
+                    style="width: 605px; height: 229px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <hr>
+            <section>
+                <h3>Radio input -:</h3>
+                <label class="r-cb-lbl">
+                    <input class="input-type" name="radio-btn" type="radio" />
+                    Chrome Browser
+                </label>
+                <label class="r-cb-lbl">
+                    <input class="input-type" name="radio-btn" type="radio" />
+                    MozillaFirefox
+                </label>
+                <label class="r-cb-lbl"> <input class="input-type" name="radio-btn" type="radio" />
+                    Internet Explorer
+                </label>
+            </section>
+            <div class="code-cntnr">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522r-cb-lbl%2522%253E%250A%253Cinput%2520class%253D%2522input-type%2522%2520name%253D%2522radio-btn%2522%2520type%253D%2522radio%2522%2520%252F%253E%250A%2509Chrome%2520Browser%250A%253C%252Flabel%253E%250A%253Clabel%2520class%253D%2522r-cb-lbl%2522%253E%250A%2509%253Cinput%2520class%253D%2522input-type%2522%2520name%253D%2522radio-btn%2522%2520type%253D%2522radio%2522%2520%252F%253E%250A%2520%2520%2520%2520MozillaFirefox%250A%253C%252Flabel%253E%250A%253Clabel%2520class%253D%2522r-cb-lbl%2522%253E%2520%250A%2520%2520%2509%253Cinput%2520class%253D%2522input-type%2522%2520name%253D%2522radio-btn%2522%2520type%253D%2522radio%2522%2520%252F%253E%250A%2509Internet%2520Explorer%250A%253C%252Flabel%253E"
+                    style="width: 673px; height: 415px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <section>
+                <h3>Checkbox input -:</h3>
+
+                <label class="r-cb-lbl">
+                    <input type="checkbox">
+                    Whatsapp
+                </label>
+                <label class="r-cb-lbl">
+                    <input type="checkbox">
+                    Facebook
+                </label>
+                <label class="r-cb-lbl">
+                    <input type="checkbox">
+                    Instagram
+                </label>
+            </section>
+            <div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522r-cb-lbl%2522%253E%250A%2509%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520Whatsapp%250A%253C%252Flabel%253E%250A%253Clabel%2520class%253D%2522r-cb-lbl%2522%253E%250A%2509%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520Facebook%250A%253C%252Flabel%253E%250A%253Clabel%2520class%253D%2522r-cb-lbl%2522%253E%250A%2509%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520Instagram%250A%253C%252Flabel%253E"
+                    style="width: 378px; height: 415px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <footer class="footer">
+                <button class="previous-btn footer-btn"><a href="/documentation/card/card.html">Previous</a></button>
+                <button class="next-btn footer-btn"><a href="/">Next</a></button>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
