@@ -20,11 +20,6 @@
     }
 }
 
-#card-compo {
-    background-color: var(--header);
-    border-radius: 1.4rem;
-}
-
 .code-cntnr {
     margin-top: 1.5rem;
 }
