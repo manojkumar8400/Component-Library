@@ -1,0 +1,60 @@
+@import "/documentation/Styles/general.css";
+
+#txt-utilities{
+    background-color: var(--header);
+    border-radius: 1.2rem;
+}
+.code-cntnr {
+    margin-top: 1rem;
+}
+
+.heading-cont {
+    border: 2px solid black;
+    margin-left: 1rem;
+}
+.utilities-container{
+    border: 2px solid black;
+    text-align: center;
+    margin:0 0 2rem 1rem;
+}
+
+.x-large-txt {
+    font-size: 2rem;
+}
+
+.large-txt {
+    font-size: 1.5rem;
+}
+
+.medium-txt {
+    font-size: 1.1rem;
+}
+
+.small-txt {
+    font-size: .8rem;
+}
+
+.gray-txt {
+    color: var(--dark-gray);
+}
+.txt-left{
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.txt-right {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.txt-uppercase {
+    text-transform: uppercase;
+}
+
+.txt-lowercase {
+    text-transform: lowercase;
+}
+
+.txt-capitalize {
+    text-transform: capitalize;
+}
