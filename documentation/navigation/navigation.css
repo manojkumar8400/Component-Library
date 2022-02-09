@@ -1,0 +1,65 @@
+@import "/documentation/Styles/general.css";
+
+.code-container{
+    text-align: center;
+    margin-top: 1rem;
+}
+.nav-var {
+    display: grid;
+    grid-template-columns: 200px 1fr 500px;
+    background-color: var(--header);
+    padding: 1rem;
+    border-radius: .3rem;
+}
+
+.nav-search-bar {
+    margin-top: .5rem;
+    font-size: 1rem;
+    position: relative;
+}
+
+.input-search {
+    font-size: 1.2rem;
+    padding: .5rem;
+    width: 58%;
+}
+
+.input-search-btn {
+    font-size: 1.2rem;
+    background-color: var(--white);
+    padding: .5rem;
+}
+
+.input-search-btn:hover {
+    box-shadow: none;
+}
+
+.nav-var-list {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    padding: .5rem;
+    position: relative;
+}
+
+.list-card {
+    position: relative;
+}
+
+.number-badge {
+    position: absolute;
+    font-size: .7rem;
+    background-color: var(--info);
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 0 .6rem;
+    top: -1rem;
+    left: 1rem;
+}
+
+.login-btn {
+    font-size: 1.2rem;
+    padding: .4rem .6rem;
+    border-radius: .4rem;
+}

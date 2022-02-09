@@ -1,10 +1,5 @@
 @import "/documentation/Styles/general.css";
 
-#input-compo {
-    background-color: var(--header);
-    border-radius: 25px;
-}
-
 .code-cntnr {
     margin-top: .5rem;
 }

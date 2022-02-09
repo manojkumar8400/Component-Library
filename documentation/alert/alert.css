@@ -28,11 +28,6 @@
     }
 }
 
-#alert-btn {
-    background-color: var(--header);
-    border-radius: 25px;
-}
-
 .body-container {
     margin-left: 1rem;
     position: relative;

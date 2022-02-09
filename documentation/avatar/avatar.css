@@ -24,11 +24,6 @@
     }
 }
 
-#avatar-btn{
-    background-color: var(--header);
-    border-radius: 25px;
-}
-
 .code-container{
     margin-top: 50px;
 }

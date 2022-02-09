@@ -27,11 +27,6 @@
 
 }
 
-#side-badge-btn {
-    background-color: var(--header);
-    border-radius: 25px;
-}
-
 .badge-section {
     margin-top: 3rem;
 }
