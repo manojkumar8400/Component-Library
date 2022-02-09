@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/documentation/slider/slider.css">
+    <title>slider</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="/index.html" class="link">
+            <span class="nav-header">🏠</span>
+        </a>
+        <ul class="nav-list">
+            <li><a class="link" target="_blank" href="https://github.com/manojkumar8400">
+                    Github
+                </a>
+            </li>
+            <li><a class="link" target="_blank" href="https://twitter.com/@manoj21_kumar">
+                    Twitter
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main-container">
+        <ul class="side-bar">
+            <h2 class="side-bar-heading">Components</h2>
+            <li><a href="/documentation/avatar/avatar.html">Avatar</a> </li>
+            <li><a href="/documentation/alert/alert.html">Alert</a></li>
+            <li><a href="/documentation/badge/badge.html">Badge</a></li>
+            <li><a href="/documentation/button/button.html">Button</a></li>
+            <li><a href="/documentation/card/card.html">Card</a></li>
+            <li><a href="/documentation/image-comp/image.html">Image</a></li>
+            <li><a href="/documentation/input/input.html">Input</a></li>
+            <li><a href="/documentation/text-utilities/text.html">Text Utilities</a></li>
+            <li><a href="/documentation/navigation/navigatio.html">Navigation</a></li>
+            <li><a href="/documentation/rating-compo/rating.html">Rating</a></li>
+            <li id="side-bar-style"><a href="/slider/slider.html">Slider</a></li>
+        </ul>
+        <div class="body-container">
+            <h2>Slider Range</h2>
+            <div class="slide-container">
+                <p class="para">Default range slider</p>
+                <input type="range" min="1" max="100" value="50" class="default-slider">
+            </div>
+            <div class="code-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slide-container%2522%253E%250A%2509%253Cp%253EDefault%2520range%2520slider%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520class%253D%2522default-slider%2522%253E%250A%253C%252Fdiv%253E"
+                    style="width: 791px; height: 266px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <hr>
+            <div class="slide-container">
+                <p class="para">Range slider with value</p>
+                <input type="range" min="1" max="100" value="20" class="slider" id="myRange">
+                <p>Value: <span id="demo"></span></p>
+            </div>
+            <div class="code-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slide-container%2522%253E%250A%2509%253Cp%253ERange%2520slider%2520with%2520value%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252220%2522%2520class%253D%2522slider%2522%2520id%253D%2522myRange%2522%253E%250A%2520%2520%2520%2520%253Cp%253EValue%253A%2520%253Cspan%2520id%253D%2522demo%2522%253E%253C%252Fspan%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                    style="width: 833px; height: 285px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <footer class="footer">
+                <button class="previous-btn footer-btn"><a
+                        href="/documentation/rating-compo/rating.html">Previous</a></button>
+            </footer>
+        </div>
+    </main>
+    <script src="/documentation/slider/slider.js"></script>
+</body>
+
+</html>
