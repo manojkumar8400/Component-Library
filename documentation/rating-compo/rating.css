@@ -1,0 +1,9 @@
+@import "/documentation/Styles/general.css";
+
+.rating {
+    font-size: 1.4rem;
+}
+
+.checked {
+    color: gold;
+}
