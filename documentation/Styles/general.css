@@ -1,3 +1,15 @@
+@import "/documentation/alert/alert.css";
+@import "/documentation/avatar/avatar.css";
+@import "/documentation/badge/badge.css";
+@import "/documentation/button/button.css";
+@import "/documentation/card/card.css";
+@import "/documentation/image-comp/image.css";
+@import "/documentation/input/input.css";
+@import "/documentation/navigation/navigation.css";
+@import "/documentation/rating-compo/rating.css";
+@import "/documentation/slider/slider.css";
+@import "/documentation/text-utilities/text.css";
+
 * {
     box-sizing: border-box;
     margin: 0%;
