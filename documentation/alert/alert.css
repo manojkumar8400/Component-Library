@@ -1,38 +1,5 @@
 @import '/documentation/Styles/general.css';
 
-@media screen and (max-width: 850px) {
-    html {
-        font-size: 14px;
-    }
-
-    .side-bar {
-        margin-top: 40px;
-    }
-
-    .body-container {
-        margin-top: 60px;
-    }
-}
-
-@media screen and (max-width: 590px) {
-    html {
-        font-size: 11px;
-    }
-
-    .code-container {
-        display: none;
-    }
-
-    .footer-btn {
-        font-size: 22px;
-    }
-}
-
-.body-container {
-    margin-left: 1rem;
-    position: relative;
-}
-
 .alert {
     font-size: 1.1rem;
     margin: 1.1rem .6rem;
@@ -79,4 +46,24 @@
     border-radius: 50%;
     position: relative;
     top: 15px;
+}
+
+@media screen and (max-width: 850px) {
+    html {
+        font-size: 14px;
+    }
+
+    .side-bar {
+        margin-top: 40px;
+    }
+
+    .body-container {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    html {
+        font-size: 11px;
+    }
 }

@@ -1,9 +1,10 @@
 @import "/documentation/Styles/general.css";
 
-.code-container{
+.code-container {
     text-align: center;
     margin-top: 1rem;
 }
+
 .nav-var {
     display: grid;
     grid-template-columns: 200px 1fr 500px;

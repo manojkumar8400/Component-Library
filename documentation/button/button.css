@@ -1,26 +1,5 @@
 @import "/documentation/Styles/general.css";
 
-@media screen and (max-width: 820px){
-    html{
-        font-size: 14px;
-    }
-    .body-container {
-        margin-top: 60px;
-    }
-}
-
-@media screen and (max-width: 590px){
-    html{
-        font-size: 11px;
-    }
-    .code-cntnr{
-        display: none;
-    }
-    .footer-btn {
-        font-size: 1.4rem;
-    }
-}
-
 p {
     font-size: 1.4rem;
 }
@@ -40,7 +19,7 @@ p {
 /*      Primary Button */
 
 .primary-btn-1 {
-    background-color: blue;
+    background-color: var(--primary-color);
     padding: 1rem 1.8rem;
     color: var(--white);
 }
@@ -48,13 +27,13 @@ p {
 .primary-btn-2 {
     padding: 1rem 1.8rem;
     border-radius: .6rem;
-    color: blue;
-    border: 3px solid blue;
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
     margin: 0 1rem;
 }
 
 .primary-btn-3 {
-    background-color: blue;
+    background-color: var(--primary-color);
     padding: 1rem 1.8rem;
     border-radius: 2rem;
     color: var(--white);
@@ -96,7 +75,7 @@ p {
 .non-disable-btn {
     padding: .9rem 2rem;
     color: var(--white);
-    background-color: green;
+    background-color: var(--success);
     margin: 0 1rem;
 }
 
@@ -126,10 +105,31 @@ p {
 }
 
 .float-add-btn {
-    background-color: blue;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--white);
     font-size: 2.3rem;
     padding: .7rem 1.4rem;
     border-radius: 50%;
-    margin:0 1rem;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 820px) {
+    html {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    html {
+        font-size: 11px;
+    }
+
+    .btn {
+        font-size: 11px;
+        padding: .6rem 1.2rem;
+    }
 }

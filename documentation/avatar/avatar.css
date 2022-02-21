@@ -1,60 +1,28 @@
 @import url("/documentation/Styles/general.css");
 
-@media screen and (max-width: 880px) {
-    html{
-        font-size: 14px;
-    }
-    .side-bar{
-        margin-top: 60px;
-    }
-    .body-container{
-        margin-top: 60px;
-    }
-  }
-
-@media screen and (max-width: 630px){
-    html{
-        font-size: 11px;
-    }
-    .code-container{
-        display: none;
-    }
-    .footer-btn{
-        font-size: 22px;
-    }
-}
-
-.code-container{
-    margin-top: 50px;
-}
-
-.abt-avtr{
-    font-size: 1.2rem;
-}
-
 /*          Round Avatar */
 
-img{
+img {
     border: 3px solid var(--light-gray);
 }
 
-.round-avatar{
-    margin:0 0 30px 0;
+.round-avatar {
+    margin: 0 0 30px 0;
 }
 
-.round-large-avatar{
+.round-large-avatar {
     width: 110px;
     height: 110px;
     border-radius: 50%;
 }
 
-.round-medium-avatar{
+.round-medium-avatar {
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
 
-.round-small-avatar{
+.round-small-avatar {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -62,23 +30,23 @@ img{
 
 /*          Square Avatar */
 
-.square-avatar{
-    margin:0 0 30px 0;
+.square-avatar {
+    margin: 0 0 30px 0;
 }
 
-.square-large-avatar{
+.square-large-avatar {
     width: 110px;
     height: 110px;
     border-radius: 10px;
 }
 
-.square-medium-avatar{
+.square-medium-avatar {
     width: 70px;
     height: 70px;
     border-radius: 10px;
 }
 
-.square-small-avatar{
+.square-small-avatar {
     width: 50px;
     height: 50px;
     border-radius: 10px;
@@ -86,11 +54,11 @@ img{
 
 /*          Text Avatar */
 
-.text-avatar{
-    margin:0 0 30px 0;
+.text-avatar {
+    margin: 0 0 30px 0;
 }
 
-.text-avr{
+.text-avr {
     background-color: var(--primary-color);
     width: max-content;
     height: 100px;
@@ -99,7 +67,7 @@ img{
     color: var(--white);
 }
 
-.text-small-avatar{
+.text-small-avatar {
     width: 100px;
     height: 100px;
     font-size: 55px;
@@ -107,17 +75,38 @@ img{
     border-radius: 10px;
 }
 
-.text-medium-avatar{
+.text-medium-avatar {
     width: 85px;
     height: 85px;
     text-align: center;
     border-radius: 10px;
 }
 
-.text-large-avatar{
+.text-large-avatar {
     width: 50px;
     height: 50px;
     border-radius: 10px;
     font-size: 25px;
     text-align: center;
+}
+
+
+.code-container {
+    margin-top: 50px;
+}
+
+.abt-avtr {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 880px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .code-container {
+        display: none;
+    }
 }

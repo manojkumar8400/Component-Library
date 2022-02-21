@@ -1,31 +1,7 @@
 @import "/documentation/Styles/general.css";
 
-@media screen and (max-width: 830px) {
-    html {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 580px) {
-    html {
-        font-size: 11px;
-    }
-
-    .code-cntnr {
-        display: none;
-    }
-
-    .footer-btn {
-        font-size: 1.4rem;
-    }
-}
-
 .code-cntnr {
     margin-top: 1.5rem;
-}
-
-.body-container {
-    margin-top: 2rem;
 }
 
 /*      Card With badge */
@@ -119,4 +95,16 @@
 
 .card-shadow {
     box-shadow: 7px 7px 8px var(--black);
+}
+
+@media screen and (max-width: 830px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    html {
+        font-size: 11px;
+    }
 }

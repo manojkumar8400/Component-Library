@@ -8,10 +8,11 @@
     border: 2px solid var(--dark-gray);
     margin-left: 1rem;
 }
-.utilities-container{
+
+.utilities-container {
     border: 2px solid var(--dark-gray);
     text-align: center;
-    margin:0 0 2rem 1rem;
+    margin: 0 0 2rem 1rem;
 }
 
 .x-large-txt {
@@ -33,7 +34,8 @@
 .gray-txt {
     color: var(--dark-gray);
 }
-.txt-left{
+
+.txt-left {
     text-align: left;
     margin-left: 1rem;
 }

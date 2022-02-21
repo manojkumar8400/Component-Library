@@ -21,19 +21,20 @@ html, body {
 }
 
 :root {
-    --white: #fff;
-    --black: black;
-    --primary-color: blue;
-    --light-gray: lightgray;
-    --dark-gray: darkgray;
-    --secondary-color: gray;
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --primary-color: rgb(0, 0, 255);
+    --light-gray: rgb(211, 211, 211);
+    --dark-gray: rgb(169, 169, 169);
+    --secondary-color: rgb(128, 128, 128);
     --header: #a2d2ff;
-    --dark-color: #8eecf5;
-    --danger: red;
-    --warning: yellow;
-    --success: green;
-    --info: blue;
-    --card-bg-clr: rgb(201, 230, 240)
+    --dark-color: #90eef7;
+    --danger: rgb(255, 0, 0);
+    --warning: rgb(255, 255, 0);
+    --success: rgb(0, 128, 0);
+    --info: rgb(0, 0, 255);
+    --card-bg-clr: rgb(201, 230, 240);
+    --gold-900:rgb(255, 215, 0);
 }
 
 a {
@@ -55,16 +56,16 @@ button:hover {
     grid-template-columns: 200px 1fr;
     background-color: var(--header);
     position: relative;
-    padding: 20px;
-    font-size: 22px;
-    border-radius: 0 0 15px 15px;
+    padding: 1.2rem;
+    font-size: 1.3rem;
+    border-radius: 0 0 .9rem .9rem;
     width: 100%;
     position: fixed;
     z-index: 1;
 }
 
 .nav-header {
-    font-size: 30px;
+    font-size: 1.7rem;
     margin-left: 1.5rem;
 }
 
@@ -73,20 +74,20 @@ button:hover {
     grid-template-columns: repeat(3, 100px);
     position: absolute;
     right: 1%;
-    top: 20px;
+    top: 1.2rem;
 }
 
 .link {
-    font-size: 25px;
+    font-size: 1.4rem;
 }
 
 /*          Side bar     */
 
-#side-bar-style{
-    background-color: var(--header);
-    border-radius: 25px;
-    font-size: 1.4rem;
+.main-container {
+    display: grid;
+    grid-template-columns: 16rem 1fr;
 }
+
 .side-bar {
     text-align: center;
     border-right: 5px solid black;
@@ -101,6 +102,12 @@ button:hover {
     margin-bottom: 1rem;
 }
 
+#side-bar-style {
+    background-color: var(--header);
+    border-radius: 25px;
+    font-size: 1.4rem;
+}
+
 .side-bar li {
     margin: 5px;
     font-size: 1.2rem;
@@ -113,13 +120,8 @@ button:hover {
 }
 
 .body-container {
-    margin: 0 1rem;
+    margin: 2.8rem 1rem 0 1rem;
     padding-top: 5rem;
-}
-
-.main-container {
-    display: grid;
-    grid-template-columns: 20% 80%;
 }
 
 /*              footer   */
@@ -138,4 +140,10 @@ button:hover {
     padding: 10px 20px;
     border-radius: 10px;
     border: 3px solid var(--black);
+}
+
+@media screen and (max-width: 580px) {
+    .footer-btn {
+        font-size: 20px;
+    }
 }

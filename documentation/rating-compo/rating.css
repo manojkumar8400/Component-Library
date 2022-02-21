@@ -5,5 +5,5 @@
 }
 
 .checked {
-    color: gold;
+    color: var(--gold-900);
 }

@@ -14,22 +14,18 @@
     cursor: pointer;
 }
 
-.sliders:hover {
-    opacity: 1;
-}
-
 .slider {
     width: 60%;
     border-radius: .5rem;
     cursor: pointer;
 }
 
-.para {
-    font-size: 1.2rem;
-}
-
 .slider:hover {
     opacity: 1;
+}
+
+.para {
+    font-size: 1.2rem;
 }
 
 .code-container {
