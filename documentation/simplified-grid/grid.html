@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <title>Grid</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="/" class="link">
+            <span class="nav-header">🏠</span>
+        </a>
+        <ul class="nav-list">
+            <li><a class="link" target="_blank" href="https://github.com/manojkumar8400">
+                    Github
+                </a>
+            </li>
+            <li><a class="link" target="_blank" href="https://twitter.com/@manoj21_kumar">
+                    Twitter
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main-container">
+        <ul class="side-bar"> 
+            <h2 class="side-bar-heading">Components</h2>
+            <li><a href="/documentation/avatar/avatar.html">Avatar</a> </li>
+            <li><a href="/documentation/alert/alert.html">Alert</a></li>
+            <li><a href="/documentation/badge/badge.html">Badge</a></li>
+            <li><a href="/documentation/button/button.html">Button</a></li>
+            <li><a href="/documentation/card/card.html">Card</a></li>
+            <li><a href="/documentation/image-comp/image.html">Image</a></li>
+            <li><a href="/documentation/input/input.html">Input</a></li>
+            <li><a href="/documentation/text-utilities/text.html">Text Utilities</a></li>
+            <li><a href="/documentation/navigation/navigatio.html">Navigation</a></li>
+            <li><a href="/documentation/rating-compo/rating.html">Rating</a></li>
+            <li><a href="/documentation/slider/slider.html">Slider</a></li>
+            <li><a href="/documentation/model/model.html">Modal</a></li>
+            <li  id="side-bar-style"><a href="/documentation/simplified-grid/grid.html">Simplified Grid</a></li>
+        </ul>
+        <div class="container">
+            <h1>Grid</h1>
+            <p>
+                Grids are the best thing that has happended in CSS till date as it making layouts a cake walk. Here are
+                few frequently used simple grid layouts tha you can use in your website designs.
+            </p>
+            <section class="grid-rows">
+                <h1>Grid Rows</h1>
+                <div class="box-1 bg-color-1">
+                    <p>box-1</p>
+                </div>
+                <div class="box-2 bg-color-2">
+                    <p>box-2</p>
+                </div>
+                <div class="box-3 bg-color-3">
+                    <p>box-3</p>
+                </div>
+                <div class="box-4 bg-color-4">
+                    <p>box-4</p>
+                </div>
+            </section>
+            <div class="code-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Csection%2520class%253D%2522grid-rows%2522%253E%250A%2520%2520%2520%2520%253Ch1%253EGrid%2520Rows%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-1%2520bg-color-1%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%253Ebox-1%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-2%2520bg-color-2%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%253Ebox-2%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-3%2520bg-color-3%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%253Ebox-3%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-4%2520bg-color-4%2522%253E%250A%2520%2520%2520%2520%253Cp%253Ebox-4%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 437px; height: 471px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2 class="column-heading">3 equal grid columns</h2>
+            <section class="grid-3-columns">
+                <div class="col-box-1 bg-color-1">
+                    <p>box-1</p>
+                </div>
+                <div class="col-box-2 bg-color-2">
+                    <p>box-2</p>
+                </div>
+                <div class="col-box-3 bg-color-3">
+                    <p>box-3</p>
+                </div>
+            </section>
+            <div class="code-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Csection%2520class%253D%2522grid-3-columns%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522col-box-1%2520bg-color-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Ebox-1%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522col-box-2%2520bg-color-2%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%253Ebox-2%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522col-box-3%2520bg-color-3%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%253Ebox-3%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 471px; height: 397px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2 class="column-heading">2 equal grid columns</h2>
+            <section class="grid-2-columns">
+                <div class="col-box-1 bg-color-1">
+                    <p>box-1</p>
+                </div>
+                <div class="col-box-2 bg-color-2">
+                    <p>box-2</p>
+                </div>
+            </section>
+            <div class="code-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522grid-2-columns%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522col-box-1%2520bg-color-1%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%253Ebox-1%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522col-box-2%2520bg-color-2%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%253Ebox-2%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 471px; height: 341px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <footer class="footer">
+                <button class="previous-btn footer-btn"><a href="/button/button.html">Previous</a></button>
+                <button class="next-btn footer-btn"><a href="images.html">Next</a></button>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
