@@ -5,10 +5,14 @@
 @import "/documentation/card/card.css";
 @import "/documentation/image-comp/image.css";
 @import "/documentation/input/input.css";
+@import "/documentation/lists/lists.css";
+@import "/documentation/model/model.css";
 @import "/documentation/navigation/navigation.css";
 @import "/documentation/rating-compo/rating.css";
+@import "/documentation/simplified-grid/grid.css";
 @import "/documentation/slider/slider.css";
 @import "/documentation/text-utilities/text.css";
+@import "/documentation/toast/toast.css";
 
 * {
     box-sizing: border-box;
@@ -34,7 +38,7 @@ html, body {
     --success: rgb(0, 128, 0);
     --info: rgb(0, 0, 255);
     --card-bg-clr: rgb(201, 230, 240);
-    --gold-900:rgb(255, 215, 0);
+    --gold-900: rgb(255, 215, 0);
     --toast-color: rgb(230, 226, 226)
 }
 
@@ -91,12 +95,13 @@ button:hover {
 
 .side-bar {
     text-align: center;
-    border-right: 5px solid black;
+    border-right: 5px solid var(--black);
     padding-top: 8rem;
     line-height: 55px;
     position: sticky;
-    top: 0px;
-    height: 100vh;
+    top: 0;
+    height: 109vh;
+
 }
 
 .side-bar-heading {
