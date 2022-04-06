@@ -1,0 +1,56 @@
+@import "/documentation/Styles/general.css";
+
+.unordered-list {
+    margin-left: 1.5rem;
+    list-style: disc;
+}
+
+.ordered-list {
+    margin-left: 1.5rem;
+    list-style: decimal;
+}
+
+.text-center {
+    display: grid;
+    justify-content: center;
+}
+
+.spaced-list {
+    display: grid;
+    grid-gap: 5px;
+    width: 30rem;
+    padding: 1rem;
+}
+
+.stacked-list {
+    width: 30rem;
+}
+
+.spaced {
+    background-color: var(--card-bg-clr);
+    border: 1px solid blue;
+    /* margin: 2rem; */
+    padding: 1rem;
+    text-align: center;
+    list-style: none;
+}
+
+.stacked {
+    background-color: wheat;
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+
+}
+
+@media only screen and (max-width: 820px) {
+
+    html {
+        font-size: 10px;
+        width: 98%;
+    }
+
+    header {
+        text-align: left;
+    }
+}
