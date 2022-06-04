@@ -1,0 +1,71 @@
+@import "/documentation/Styles/general.css";
+
+.container {
+    margin-top: 5.4rem;
+    padding: 2rem;
+}
+
+.toast-type {
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.toast-1, .toast-2 {
+    display: flex;
+    border: 2px solid;
+    justify-content: space-around;
+    justify-items: center;
+    padding: .8rem 1rem;
+    background-color: var(--toast-color);
+}
+
+.vertical-line {
+    font-weight: 900;
+}
+
+.x-btn {
+    border: none;
+    background-color: var(--toast-color);
+}
+
+.toast-3 {
+    display: grid;
+    border: 2px solid;
+    justify-content: space-around;
+    background-color: var(--toast-color);
+}
+
+.cancel-div {
+    margin-left: 9.5rem;
+}
+
+.btn {
+    margin-left: .5rem;
+}
+
+.click-btn {
+    font-size: 1.2rem;
+    padding: .5rem .8rem;
+    border-radius: .5rem;
+}
+
+.demo-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -2rem;
+}
+
+.toast {
+    background-color: var(--toast-color);
+    display: none;
+    justify-content: space-around;
+    border: 2px solid;
+    padding: .8rem 1rem;
+    position: absolute;
+    top: -1rem;
+    right: -25rem;
+    width: 22rem;
+}
