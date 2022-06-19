@@ -7,7 +7,7 @@ It's a component Library,you can use it to make your ui beautiful.
 Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS.
 
 ```HTML
-<link rel="stylesheet" href="/documentation/Styles/general.css"/>
+<link rel="stylesheet" href="https://euphonious-platypus-.netlify.app/documentation/Styles/general.css"/>
 ```
 
 ## How to use?
