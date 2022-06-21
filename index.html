@@ -5,54 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="https://www.clipartmax.com/png/full/414-4147696_favicon-ico-news-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="home.css">
     <title>Home page</title>
 </head>
 
 <body>
-    <div class="main-container">
-        <nav class="nav">
-            <a href="index.html" class="link">
-                <span class="nav-header">Home Page</span>
-            </a>
-            <ul class="nav-list">
-                <li><a class="link" href="/documentation/avatar/avatar.html"> Docs</a></li>
-                <li><a class="link" target="_blank" href="https://github.com/manojkumar8400">
-                        Github
+    <div class="home-container">
+        <!--    Header bar -->
+        <header class="header">
+            <a href="/index.html">Iconic UI</a>
+            <a href="https://github.com/manojkumar8400"><i class="fa fa-github"></i></a>
+        </header>
+        <section>
+            <section class="intro-section">
+                <section>
+                    <h1 class="txt-heading">Component library</h1>
+                    <p>This is a component library home page. In which there are many components, that
+                        you can use to design your layout. </p>
+                    <button class="start-btn"><a href="/documentation/alert/alert.html">Get Started</a></button>
+                </section>
+                <img class="img" src="./documentation/images/home-page.png" alt="home page">
+            </section>
+            <section class="install-section">
+                <section>
+                    <h1 class="txt-heading"> Installation</h1>
+                    <p>To use component library in your project, copy the CDN link and paste it in the head of the HTML
+                        file
+                        of your project.
+                    </p>
+                </section>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2895%2C152%2C201%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Feuphonious-platypus-.netlify.app%252Fdocumentation%252FStyles%252Fgeneral.css%2522%252F%253E"
+                    style="width: 770px; height: 229px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+            <footer class="footer-bar">
+                <h3 class="primary-txt">Social Media</h3>
+                <div class="footer-link">
+                    <a target="_blank" href="https://github.com/manojkumar8400">
+                        <i class="fa fa-github github-logo"></i>
                     </a>
-                </li>
-                <li><a class="link" target="_blank" href="https://twitter.com/@manoj21_kumar">
-                        Twitter
+                    <a target="_blank" href="https://twitter.com/@manoj21_kumar">
+                        <i class="fa fa-twitter github-logo"></i>
                     </a>
-                </li>
-            </ul>
-        </nav>
-        <section class="sec-intro">
-            <div class="txt-container">
-                <h1 class="txt-heading">Component library</h1>
-                <p class="txt-para">This is a component library home page. In which there are many components, that you
-                    can use to design your layout. </p>
-                <button class="btn"><a href="/documentation/avatar/avatar.html">Get Started</a></button>
-            </div>
-            <img class="intro-img" src="/documentation/images/home-page.png" alt="home-picture" />
+                    <a target="_blank" href="https://www.linkedin.com/feed/">
+                        <i class="fa fa-linkedin github-logo"></i>
+                    </a>
+                </div>
+            </footer>
         </section>
-        <footer class="footer">
-            <h3 class="primary-txt">Social Media</h3>
-            <div class="footer-link">
-                <a target="_blank" href="https://github.com/manojkumar8400">
-                    <img class="footer-icon" src="/documentation/images/github(1).png" alt="">
-                </a>
-                <a target="_blank" href="https://twitter.com/@manoj21_kumar">
-                    <img class="footer-icon" src="/documentation/images/twitter.png" alt="">
-                </a>
-                <a target="_blank" href="https://www.linkedin.com">
-                    <img class="footer-icon" src="/documentation/images/linkedIn.jpeg" alt="">
-                </a>
-            </div>
-        </footer>
     </div>
 </body>
+
 </html>

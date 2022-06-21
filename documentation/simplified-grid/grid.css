@@ -1,10 +1,5 @@
 @import "/documentation/Styles/general.css";
 
-.container {
-    margin-top: 6.5rem;
-    padding: 1rem;
-}
-
 .grid-rows {
     display: grid;
     justify-items: center;
@@ -14,25 +9,25 @@
 
 .box-1, .box-2, .box-3, .box-4 {
     font-size: 1.5rem;
-    color: white;
-    height: 15vh;
+    color: var(--white);
+    padding: 1.5rem;
     width: 60%;
 }
 
-.bg-color-1 {
-    background-color: rgb(37, 37, 173);
+.bg-color-1, .col-bg-color-1 {
+    background-color: var(--blue-700);
 }
 
-.bg-color-2 {
-    background-color: rgb(0, 0, 255);
+.bg-color-2, .col-bg-color-2 {
+    background-color: var(--primary-color);
 }
 
 .bg-color-3 {
-    background-color: rgb(71, 71, 158);
+    background-color: var(--blue-500);
 }
 
-.bg-color-4 {
-    background-color: rgb(96, 96, 160);
+.bg-color-4, .col-bg-color-3 {
+    background-color: var(--blue-300);
 }
 
 .grid-3-columns {
@@ -49,21 +44,8 @@
 
 .col-box-1, .col-box-2, .col-box-3 {
     font-size: 1.5rem;
-    color: white;
-    height: 15vh;
-    width: 100%;
-}
-
-.col-bg-color-1 {
-    background-color: rgb(57, 57, 161);
-}
-
-.col-bg-color-2 {
-    background-color: rgb(0, 0, 255);
-}
-
-.col-bg-color-3 {
-    background-color: rgb(71, 71, 158);
+    color: var(--white);
+    padding: 1.5rem;
 }
 
 .grid-2-columns {

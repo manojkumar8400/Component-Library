@@ -1,16 +1,12 @@
 @import "/documentation/Styles/general.css";
 
-.code-container {
-    text-align: center;
-    margin-top: 1rem;
-}
-
 .nav-var {
     display: grid;
     grid-template-columns: 200px 1fr 500px;
     background-color: var(--header);
     padding: 1rem;
     border-radius: .3rem;
+    margin-top: 1rem;
 }
 
 .nav-search-bar {
@@ -25,14 +21,8 @@
     width: 58%;
 }
 
-.input-search-btn {
-    font-size: 1.2rem;
-    background-color: var(--white);
-    padding: .5rem;
-}
-
-.input-search-btn:hover {
-    box-shadow: none;
+.input-search:focus{
+    border: none;
 }
 
 .nav-var-list {
@@ -47,16 +37,19 @@
     position: relative;
 }
 
+.list-card span:nth-child(1){
+    font-size: 1.8rem;
+}
+
 .number-badge {
     position: absolute;
-    font-size: .7rem;
+    font-size: .8rem;
     background-color: var(--info);
     color: var(--white);
     font-weight: bold;
     border-radius: 50%;
-    padding: 0 .6rem;
-    top: -1rem;
-    left: 1rem;
+    padding: 0 .4rem;
+    right: -15px;
 }
 
 .login-btn {

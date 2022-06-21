@@ -1,10 +1,5 @@
 @import "/documentation/Styles/general.css";
 
-.container {
-    margin-top: 5.4rem;
-    padding: 2rem;
-}
-
 .toast-type {
     display: grid;
     justify-content: center;
@@ -12,12 +7,13 @@
     margin-top: 1rem;
 }
 
-.toast-1, .toast-2 {
+.toast-1 {
     display: flex;
     border: 2px solid;
     justify-content: space-around;
     justify-items: center;
     padding: .8rem 1rem;
+    font-size: 1.3rem;
     background-color: var(--toast-color);
 }
 
@@ -27,18 +23,8 @@
 
 .x-btn {
     border: none;
-    background-color: var(--toast-color);
-}
-
-.toast-3 {
-    display: grid;
-    border: 2px solid;
-    justify-content: space-around;
-    background-color: var(--toast-color);
-}
-
-.cancel-div {
-    margin-left: 9.5rem;
+    background-color: initial;
+    font-size: 1.5rem;
 }
 
 .btn {
@@ -68,4 +54,5 @@
     top: -1rem;
     right: -25rem;
     width: 22rem;
+    font-size: 1.3rem;
 }

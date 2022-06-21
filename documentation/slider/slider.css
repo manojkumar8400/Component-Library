@@ -4,13 +4,12 @@
     width: 100%;
     text-align: center;
     background-color: var(--light-gray);
-    margin: 2rem 0;
     border-radius: 1rem;
+    padding: 1rem;
 }
 
 .default-slider {
     width: 20%;
-    margin-bottom: 2rem;
     cursor: pointer;
 }
 
@@ -22,10 +21,6 @@
 
 .slider:hover {
     opacity: 1;
-}
-
-.para {
-    font-size: 1.2rem;
 }
 
 .code-container {

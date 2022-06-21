@@ -5,88 +5,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.clipartmax.com/png/full/414-4147696_favicon-ico-news-favicon.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/documentation/badge/badge.css">
     <title>Badge</title>
 </head>
 
 <body>
-    <nav class="nav">
-        <a href="/index.html" class="link">
-            <span class="nav-header">Home</span>
-        </a>
-        <ul class="nav-list">
-            <li><a class="link" target="_blank" href="https://github.com/manojkumar8400">
-                    Github
-                </a>
-            </li>
-            <li><a class="link" target="_blank" href="https://twitter.com/@manoj21_kumar">
-                    Twitter
-                </a>
-            </li>
-        </ul>
-    </nav>
+    <!--    Header bar -->
+    <header class="nav">
+        <a href="/index.html">Iconic UI</a>
+        <a href="https://github.com/manojkumar8400"><i class="fa fa-github github-logo"></i></a>
+    </header>
     <main class="main-container">
         <ul class="side-bar">
-            <h2 class="side-bar-heading">Components</h2>
-            <li><a href="/documentation/avatar/avatar.html">Avatar</a> </li>
+            <h1 class="side-bar-heading">Components</h1>
             <li><a href="/documentation/alert/alert.html">Alert</a></li>
+            <li><a href="/documentation/avatar/avatar.html">Avatar</a> </li>
             <li id="side-bar-style"><a href="/documentation/badge/badge.html">Badge</a></li>
             <li><a href="/documentation/button/button.html">Button</a></li>
             <li><a href="/documentation/card/card.html">Card</a></li>
             <li><a href="/documentation/image-comp/image.html">Image</a></li>
             <li><a href="/documentation/input/input.html">Input</a></li>
-            <li><a href="/documentation/text-utilities/text.html">Text Utilities</a></li>
-            <li><a href="/documentation/navigation/navigatio.html">Navigation</a></li>
-            <li><a href="/documentation/rating-compo/rating.html">Rating</a></li>
-            <li><a href="/documentation/slider/slider.html">Slider</a></li>
-            <li><a href="/documentation/model/model.html">Modal</a></li>
-            <li><a href="/documentation/simplified-grid/grid.html">Simplified Grid</a></li>
-            <li><a href="/documentation/toast/toast.html">Toast/Snackbar</a></li>
             <li><a href="/documentation/lists/lists.html">Lists</a></li>
+            <li><a href="/documentation/model/model.html">Modal</a></li>
+            <li><a href="/documentation/navigation/navigation.html">Navigation</a></li>
+            <li><a href="/documentation/rating-compo/rating.html">Rating</a></li>
+            <li><a href="/documentation/simplified-grid/grid.html">Simplified Grid</a></li>
+            <li><a href="/documentation/slider/slider.html">Slider</a></li>
+            <li><a href="/documentation/text-utilities/text.html">Text Utilities</a></li>
+            <li><a href="/documentation/toast/toast.html">Toast/Snackbar</a></li>
 
         </ul>
         <div class="body-container">
-            <section class="badge-section">
-                <h2>Badges</h2>
-                <p class="txt para">text with a Badge <span class="sm-badge-on-txt">6</span> </p>
-                <p class="para">Badge on Button -:</p>
-                <button class="active-btn">Action<span class="badge-on-active-btn">6</span></button>
-                <p class="para">Badge on Icon -: </p>
-                <span class="home-icon">&#127968; <span class="badge-on-home-icon">6</span> </span>
-                <div class="code-container">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522txt%2520para%2522%253Etext%2520with%2520a%2520badge%2520%253Cspan%2520class%253D%2522sm-badge-on-txt%2522%253E6%253C%252Fspan%253E%2520%253C%252Fp%253E%250A%253Cbutton%2520class%253D%2522active-btn%2522%253EAction%253Cspan%2520class%253D%2522badge-on-active-btn%2522%253E6%253C%252Fspan%253E%253C%252Fbutton%253E%250A%253Cspan%2520class%253D%2522home-icon%2522%253E%2526%2523127968%253B%2520%253Cspan%2520class%253D%2522badge-on-home-icon%2522%253E6%253C%252Fspan%253E%2520%253C%252Fspan%253E"
-                        style="width: 858px; height: 248px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <div class="social-media-badges">
-                    <p class="para">I use Badge on Social Media Avatar -:</p><br>
-                    <span class="avtr-cont">
-                        <img class="onln-dot-badge-avtr" src="/documentation/badge/images/sunder.jpeg"
-                            alt="round avatar">
-                        <span class="dot-badge"></span>
-                    </span>
-                    <span class="avtr-cont">
-                        <img class="ofln-tm-badge-avtr" src="/documentation/badge/images/sunder.jpeg"
-                            alt="round avatar">
-                        <span class="ofln-tm-badge">2m</span>
-                    </span>
-                    <img class="onln-brdr-badge-avtr" src="/documentation/badge/images/sunder.jpeg" alt="round avatar">
-                    <img class="ofln-brdr-badge-avtr" src="/documentation/badge/images/sunder.jpeg" alt="round avatar">
-                </div>
-                <div class="code-container">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522avtr-cont1%2522%253E%250A%253Cimg%2520class%253D%2522onln-dot-badge-avtr%2522%2520src%253D%2522%252F%2522alt%253D%2522%2522%253E%250A%253Cspan%2520class%253D%2522dot-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%253Cimg%2520class%253D%2522onln-brdr-badge-avtr%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%250A%253Cspan%2520class%253D%2522avtr-cont%2522%253E%250A%253Cimg%2520class%253D%2522ofln-tm-badge-avtr%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%250A%253Cspan%2520class%253D%2522ofln-tm-badge%2522%253E2m%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%253Cimg%2520class%253D%2522ofln-brdr-badge-avtr%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E"
-                        style="width: 563px; height: 378px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </section>
-            <footer class="footer">
-                <button class="previous-btn footer-btn"><a href="/documentation/alert/alert.html">Previous</a></button>
-                <button class="next-btn footer-btn"><a href="/documentation/button/button.html">Next</a></button>
-            </footer>
+            <section class="badge-sectionn">
+                <h2 class="fs-large">Badges</h2>
+                <section>
+                    <div class="utilities-container">
+                        <section class="button-badge-section">
+                            <span class="txt-size">Badge on Button -:</span>
+                            <span class="badge-section">
+                                <button class="active-btn">Update</button>
+                                <span class="badge-on-btn">6</span>
+                            </span>
+                        </section>
+                        <section class="badge-section">
+                            <span class="txt-size">Badge on Icon -: </span>
+                            <span class="badge-section">
+                                <i class="fa fa-home fs-medium"></i>
+                                <span class="badge-on-icon">6</span>
+                            </span>
+                            <span class="badge-section">
+                                <i class="fa fa-bell fs-medium"></i>
+                                <span class="badge-on-icon">6</span>
+                            </span>
+                        </section>
+                        <div class="code-container">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522txt-size%2522%253EBadge%2520on%2520Button%2520-%253A%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522active-btn%2522%253EUpdate%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522badge-on-btn%2522%253E6%253C%252Fspan%253E%250A%2509%253C%252Fspan%253E%250A%253C%252Fsection%253E%250A%253Csection%2520class%253D%2522badge-section%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522txt-size%2522%253EBadge%2520on%2520Icon%2520-%253A%2520%253C%252Fspan%253E%250A%2520%2520%2520%2509%253Cspan%2520class%253D%2522badge-section%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa%2520fa-home%2520fs-medium%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522badge-on-icon%2522%253E6%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bell%2520fs-medium%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522badge-on-icon%2522%253E6%253C%252Fspan%253E%250A%2509%253C%252Fspan%253E%250A%253C%252Fsection%253E"
+                                style="width: 589px; height: 327px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="utilities-container">
+                        <section class="social-media-badges">
+                            <p class="para">I use Badge on Social Media Avatar -:</p>
+                            <span class="badge-section">
+                                <img class="avtar-img" src="/documentation/badge/images/sunder.jpeg" alt="round avatar">
+                                <span class="dot-badge"></span>
+                            </span>
+                            <span class="badge-section">
+                                <img class="avtar-img" src="/documentation/badge/images/sunder.jpeg" alt="round avatar">
+                                <span class="ofln-time-badge">2m</span>
+                            </span>
+                            <img class="onln-brdr-badge-avtr" src="/documentation/badge/images/sunder.jpeg"
+                                alt="round avatar">
+                            <img class="ofln-brdr-badge-avtr" src="/documentation/badge/images/sunder.jpeg"
+                                alt="round avatar">
+                        </section>
+                        <div class="code-container">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522social-media-badges%2522%253E%250A%2509%253Cp%2520class%253D%2522para%2522%253EI%2520use%2520Badge%2520on%2520Social%2520Media%2520Avatar%2520-%253A%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-section%2522%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522avtar-img%2522%2520src%253D%2522%252Fdocumentation%252Fbadge%252Fimages%252Fsunder.jpeg%2522%2520alt%253D%2522round%2520avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522dot-badge%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-section%2522%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522avtar-img%2522%2520src%253D%2522%252Fdocumentation%252Fbadge%252Fimages%252Fsunder.jpeg%2522%2520alt%253D%2522round%2520avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ofln-time-badge%2522%253E2m%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522onln-brdr-badge-avtr%2522%2520src%253D%2522%252Fdocumentation%252Fbadge%252Fimages%252Fsunder.jpeg%2522alt%253D%2522round%2520avatar%2522%253E%250A%2509%253Cimg%2520class%253D%2522ofln-brdr-badge-avtr%2522%2520src%253D%2522%252Fdocumentation%252Fbadge%252Fimages%252Fsunder.jpeg%2522alt%253D%2522round%2520avatar%2522%253E%250A%253C%252Fsection%253E"
+                                style="width: 1010px; height: 327px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+                <footer class="footer">
+                    <button><a href="/documentation/avatar/avatar.html"><i class="fa fa-chevron-left"></i> <span
+                                class="fs-medium">Avatar</span></a></button>
+                    <button><a href="/documentation/button/button.html"><span class="fs-medium">Button</span> <i
+                                class="fa fa-chevron-right"></i></a></button>
+                </footer>
         </div>
     </main>
 </body>

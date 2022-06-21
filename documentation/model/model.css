@@ -3,21 +3,28 @@
 .container {
     margin-top: 6rem;
     padding: 1rem;
-    text-align: center;
+    position: relative;
 }
 
 .model-btn {
     padding: .5rem 1rem;
     margin-top: 2rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    transform: translate(-50% -50%);
 }
 
 .model-bar {
-    display: none;
+    visibility: hidden;
     border: 2px solid;
     width: 30rem;
     padding: 1rem;
     border-radius: 1rem;
-    margin: 2rem 0 0 25rem;
+    margin: 8rem auto;
+    text-align: center;
 }
 
 .model-header {
@@ -26,23 +33,7 @@
 }
 
 .cancel-btn {
-    font-weight: bolder;
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    margin-top: .8rem;
-}
-
-.save-btn {
-    padding: .5rem 1rem;
-    margin-top: .5rem;
-}
-
-.saved-toast {
-    display: none;
-    border: 2px solid;
-    width: 12rem;
-    text-align: center;
-    margin: 2rem 0 0 34rem;
-    border-radius: 2rem;
 }

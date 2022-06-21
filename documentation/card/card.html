@@ -5,171 +5,175 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/documentation/card/card.css">
+    <link rel="shortcut icon" href="https://www.clipartmax.com/png/full/414-4147696_favicon-ico-news-favicon.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel=" stylesheet" href="/documentation/card/card.css">
     <title>Card</title>
 </head>
 
 <body>
-    <nav class="nav">
-        <a href="/index.html" class="link">
-            <span class="nav-header">Home</span>
-        </a>
-        <ul class="nav-list">
-            <li><a class="link" target="_blank" href="https://github.com/manojkumar8400">
-                    Github
-                </a>
-            </li>
-            <li><a class="link" target="_blank" href="https://twitter.com/@manoj21_kumar">
-                    Twitter
-                </a>
-            </li>
-        </ul>
-    </nav>
+    <!--    Header bar -->
+    <header class="nav">
+        <a href="/index.html">Iconic UI</a>
+        <a href="https://github.com/manojkumar8400"><i class="fa fa-github github-logo"></i></a>
+    </header>
     <main class="main-container">
         <ul class="side-bar">
-            <h2 class="side-bar-heading">Components</h2>
-            <li><a href="/documentation/avatar/avatar.html">Avatar</a> </li>
+            <h1 class="side-bar-heading">Components</h1>
             <li><a href="/documentation/alert/alert.html">Alert</a></li>
+            <li><a href="/documentation/avatar/avatar.html">Avatar</a> </li>
             <li><a href="/documentation/badge/badge.html">Badge</a></li>
             <li><a href="/documentation/button/button.html">Button</a></li>
             <li id="side-bar-style"><a href="/documentation/card/card.html">Card</a></li>
             <li><a href="/documentation/image-comp/image.html">Image</a></li>
             <li><a href="/documentation/input/input.html">Input</a></li>
-            <li><a href="/documentation/text-utilities/text.html">Text Utilities</a></li>
-            <li><a href="/documentation/navigation/navigatio.html">Navigation</a></li>
-            <li><a href="/documentation/rating-compo/rating.html">Rating</a></li>
-            <li><a href="/documentation/slider/slider.html">Slider</a></li>
-            <li><a href="/documentation/model/model.html">Modal</a></li>
-            <li><a href="/documentation/simplified-grid/grid.html">Simplified Grid</a></li>
-            <li><a href="/documentation/toast/toast.html">Toast/Snackbar</a></li>
             <li><a href="/documentation/lists/lists.html">Lists</a></li>
+            <li><a href="/documentation/model/model.html">Modal</a></li>
+            <li><a href="/documentation/navigation/navigation.html">Navigation</a></li>
+            <li><a href="/documentation/rating-compo/rating.html">Rating</a></li>
+            <li><a href="/documentation/simplified-grid/grid.html">Simplified Grid</a></li>
+            <li><a href="/documentation/slider/slider.html">Slider</a></li>
+            <li><a href="/documentation/text-utilities/text.html">Text Utilities</a></li>
+            <li><a href="/documentation/toast/toast.html">Toast/Snackbar</a></li>
         </ul>
         <div class="body-container">
-            <header>
-                <h2>Cards</h2>
-                <p>There is many type of cards.</p>
-            </header>
             <section>
-
+                <h2 class="fs-large">Cards</h2>
+                <p>There is many type of cards.</p>
+            </section>
+            <section>
                 <!-- Card With Badge -->
-                <h3>Card With Badge -:</h3>
-                <div class="card">
-                    <img class="tourist-badge" src="/documentation/card/images/tourism.jpg" alt="">
-                    <img class="nature-img" src="/documentation/card/images/Dharamshala.jpg" alt="Dharamshala Pic">
-                    <p class="pic-title">Beauty Of Nature</p>
-                    <p class="about-nature">Nothing compares to nature‘s beauty, as these famous quotes about nature
-                        agree. From spring‘s
-                        hopeful new blooms and fall’s exquisite array of colors to winter’s magic and summer’s energy,
-                        each season abounds with different types of natural beauty to explore and admire. For those who
-                        may forget what being in nature.</p>
-                </div>
-                <div class="code-container">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cimg%2520class%253D%2522tourist-badge%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522nature-img%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522pic-title%2522%253EBeauty%2520Of%2520Nature%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522about-nature%2522%253E%252F%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-                        style="width: 538px; height: 304px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-                <hr>
-
-                <!-- Cards with text overlay and Dismiss button -->
-                <h3>Cards with text overlay and Dismiss button -:</h3>
-                <div class="card">
-                    <img class="nature-img" src="/documentation/card/images/Dharamshala.jpg" alt="Dharamshala Pic">
-                    <button class="dismiss-icon">X</button>
-                    <p class="text-overlay">| HIMACHAL PRADESH | <br>DHARAMSHALA <br> DHARAMKOT > NADDI > BHAGSU</p>
-                    <p class="pic-title">Beauty Of Nature</p>
-                    <p class="about-nature">Nothing compares to nature‘s beauty, as these famous quotes about nature
-                        agree. From spring‘s
-                        hopeful new blooms and fall’s exquisite array of colors to winter’s magic and summer’s energy,
-                        each season abounds with different types of natural beauty to explore and admire. For those who
-                        may forget what being in nature.</p>
-                </div>
-                <div class="code-container">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cimg%2520class%253D%2522nature-img-overlay%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-overlay%2522%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522pic-title%2522%253EBeauty%2520Of%2520Nature%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522about-nature%2522%253E%252F%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-                        style="width: 580px; height: 304px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-                <hr>
-
-                <!-- Text only cards -->
-                <h3>Text only cards -:</h3>
-                <div class="card">
-                    <p class="pic-title">Beauty Of Nature</p>
-                    <p class="about-nature">Nothing compares to nature‘s beauty, as these famous quotes about nature
-                        agree. From spring‘s
-                        hopeful new blooms and fall’s exquisite array of colors to winter’s magic and summer’s energy,
-                        each season abounds with different types of natural beauty to explore and admire. For those who
-                        may forget what being in nature.</p>
-                </div>
-                <div class="code-container">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cp%2520class%253D%2522pic-title%2522%253EBeauty%2520Of%2520Nature%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522about-nature%2522%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-                        style="width: 530px; height: 266px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-                <hr>
-
-                <!-- Vertical cards with Shadow-->
-                <h3>Vertical cards with Shadow-:</h3>
-                <div class="card card-shadow">
-                    <img class="nature-img" src="/documentation/card/images/Dharamshala.jpg" alt="Dharamshala Pic">
-                    <p class="pic-title">Beauty Of Nature</p>
-                    <p class="about-nature">Nothing compares to nature‘s beauty, as these famous quotes about nature
-                        agree. From spring‘s
-                        hopeful new blooms and fall’s exquisite array of colors to winter’s magic and summer’s energy,
-                        each season abounds with different types of natural beauty to explore and admire. For those who
-                        may forget what being in nature.</p>
-                </div>
-                <div class="code-container">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cimg%2520class%253D%2522nature-img-overlay%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522pic-title%2522%253EBeauty%2520Of%2520Nature%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522about-nature%2522%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-                        style="width: 580px; height: 285px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-                <hr>
-
-                <!-- Horizontal Cards -->
-                <h3>Horizontal Cards -:</h3>
-                <div class="horigental-card">
-                    <img class="nature-img-hr" src="/documentation/card/images/Dharamshala.jpg" alt="Dharamshala Pic">
-                    <div class="hr-crd-txt">
+                <div class="utilities-container">
+                    <h3 class="fs-medium">Card With Badge -:</h3>
+                    <div class="card-container">
+                        <img class="badge" src="/documentation/card/images/tourism.jpg" alt="card">
+                        <img class="img" src="/documentation/card/images/Dharamshala.jpg" alt="stadium">
                         <p class="pic-title">Beauty Of Nature</p>
                         <p class="about-nature">Nothing compares to nature‘s beauty, as these famous quotes about nature
-                            agree. From spring‘s hopeful new blooms and fall’s exquisite array of colors to winter’s
-                            magic and summer’s energy, each season abounds with different types of natural beauty to
-                            explore and admire. For those who may forget what being in nature feels like—this is where
-                            these best nature quotes come in!
-
-                            From enchanting nature’s beauty quotes that evoke visions of lush meadows full of
-                            brilliantly-colored flowers or dense forests with sky-high trees to famous quotes about
-                            nature’s ever-present—and absolutely fundamental—role in our lives, these 101 quotes about
-                            nature will have you itching to get off your couch and get outside. For famous quotes about
-                            nature, we have them here!
-                        </p>
+                            agree. From spring‘s
+                            hopeful new blooms and fall’s exquisite array of colors to winter’s magic and summer’s
+                            energy,
+                            each season abounds with different types of natural beauty to explore and admire.</p>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge%2522%2520src%253D%2522%252Fdocumentation%252Fcard%252Fimages%252Ftourism.jpg%2522%2520alt%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fdocumentation%252Fcard%252Fimages%252FDharamshala.jpg%2522%2520alt%253D%2522stadium%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522pic-title%2522%253EBeauty%2520Of%2520Nature%253C%252Fp%253E%250A%2509%253Cp%2520class%253D%2522about-nature%2522%253ENothing%2520compares%2520to%2520nature%25E2%2580%2598s%2520beauty%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                            style="width: 858px; height: 304px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
                     </div>
                 </div>
-                <div class="code-container">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522nature-img-overlay%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522pic-title%2522%253EBeauty%2520Of%2520Nature%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522about-nature%2522%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-                        style="width: 546px; height: 285px; border:0; transform: scale(1); overflow:hidden;"
+
+                <!-- Cards with text overlay and Dismiss button -->
+                <div class="utilities-container">
+                    <h3 class="fs-medium">Cards with text overlay and Dismiss button -:</h3>
+                    <div class="card-container">
+                        <img class="img" src="/documentation/card/images/Dharamshala.jpg" alt="stadium">
+                        <button class="dismiss-icon"><i class="fa fa-close"></i></button>
+                        <p class="text-overlay">| HIMACHAL PRADESH | <br>DHARAMSHALA <br> DHARAMKOT > NADDI > BHAGSU</p>
+                        <p class="pic-title">Beauty Of Nature</p>
+                        <p class="about-nature">Nothing compares to nature‘s beauty, as these famous quotes about nature
+                            agree. From spring‘s
+                            hopeful new blooms and fall’s exquisite array of colors to winter’s magic and summer’s
+                            energy,
+                            each season abounds with different types of natural beauty to explore and admire. For those
+                            who
+                            may forget what being in nature.</p>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fdocumentation%252Fcard%252Fimages%252FDharamshala.jpg%2522%2520alt%253D%2522stadium%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dismiss-icon%2522%253E%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-overlay%2522%253E%257C%2520HIMACHAL%2520PRADESH%2520%257C%2520%253Cbr%253EDHARAMSHALA%2520%253Cbr%253E%2520DHARAMKOT%2520%253E%2520NADDI%2520%253E%2520BHAGSU%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522pic-title%2522%253EBeauty%2520Of%2520Nature%253C%252Fp%253E%250A%2509%253Cp%2520class%253D%2522about-nature%2522%253ENothing%2520compares%2520to%2520nature%25E2%2580%2598s%2520beauty%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                            style="width: 993px; height: 322px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Text only cards -->
+                <div class="utilities-container">
+                    <h3 class="fs-medium">Text only cards -:</h3>
+                    <div class="card-container">
+                        <p class="pic-title">Beauty Of Nature</p>
+                        <p class="about-nature">Nothing compares to nature‘s beauty, as these famous quotes about nature
+                            agree. From spring‘s
+                            hopeful new blooms and fall’s exquisite array of colors to winter’s magic and summer’s
+                            energy,
+                            each season abounds with different types of natural beauty to explore and admire. For those
+                            who
+                            may forget what being in nature.</p>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522pic-title%2522%253EBeauty%2520Of%2520Nature%253C%252Fp%253E%250A%2509%253Cp%2520class%253D%2522about-nature%2522%253ENothing%2520compares%2520to%2520nature%25E2%2580%2598s%2520beauty%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                            style="width: 850px; height: 266px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Vertical cards with Shadow-->
+                <div class="utilities-container">
+                    <h3 class="fs-medium">Vertical cards with Shadow-:</h3>
+                    <div class="card-container card-shadow">
+                        <img class="img" src="/documentation/card/images/Dharamshala.jpg" alt="stadium">
+                        <p class="pic-title">Beauty Of Nature</p>
+                        <p class="about-nature">Nothing compares to nature‘s beauty, as these famous quotes about nature
+                            agree. From spring‘s
+                            hopeful new blooms and fall’s exquisite array of colors to winter’s magic and summer’s
+                            energy,
+                            each season abounds with different types of natural beauty to explore and admire. For those
+                            who
+                            may forget what being in nature.</p>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fdocumentation%252Fcard%252Fimages%252FDharamshala.jpg%2522%2520alt%253D%2522stadium%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522pic-title%2522%253EBeauty%2520Of%2520Nature%253C%252Fp%253E%250A%2509%253Cp%2520class%253D%2522about-nature%2522%253ENothing%2520compares%2520to%2520nature%25E2%2580%2598s%2520beauty%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                            style="width: 858px; height: 285px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Horizontal Cards -->
+                <div class="utilities-container">
+                    <h3 class="fs-medium">Horizontal Cards -:</h3>
+                    <div class="horigental-card">
+                        <img src="/documentation/card/images/Dharamshala.jpg" alt="stadium">
+                        <div class="hr-crd-txt">
+                            <p class="pic-title">Beauty Of Nature</p>
+                            <p class="about-nature">Nothing compares to nature‘s beauty, as these famous quotes about
+                                nature
+                                agree. From spring‘s hopeful new blooms and fall’s exquisite array of colors to winter’s
+                                magic and summer’s energy, each season abounds with different types of natural beauty to
+                                explore and admire. For those who may forget what being in nature feels like—this is
+                                where
+                                these best nature quotes come in!
+
+                                From enchanting nature’s beauty quotes that evoke visions of lush meadows full of
+                                brilliantly-colored flowers or dense forests with sky-high trees to famous quotes about
+                                nature’s ever-present—and absolutely fundamental—role in our lives, these 101 quotes
+                                about
+                                nature will have you itching to get off your couch and get outside. For famous quotes
+                                about
+                                nature, we have them here!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522horigental-card%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522nature-img-hr%2522%2520src%253D%2522%252Fdocumentation%252Fcard%252Fimages%252FDharamshala.jpg%2522%2520alt%253D%2522stadium%2522%253E%250A%2509%253Cdiv%2520class%253D%2522hr-crd-txt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522pic-title%2522%253EBeauty%2520Of%2520Nature%253C%252Fp%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522about-nature%2522%253ENothing%2520compares%2520to%2520nature%25E2%2580%2598s%2520beauty%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 943px; height: 322px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
+            </div>
             </section>
-
             <footer class="footer">
-                <button class="previous-btn footer-btn"><a
-                        href="/documentation/button/button.html">Previous</a></button>
-                <button class="next-btn footer-btn"><a href="/documentation/image-comp/image.html">Next</a></button>
+                <button><a href="/documentation/button/button.html"><i class="fa fa-chevron-left"></i> <span
+                            class="fs-medium">Button</span></a></button>
+                <button><a href="/documentation/image-comp/image.html"><span class="fs-medium">Image</span> <i
+                            class="fa fa-chevron-right"></i></a></button>
             </footer>
         </div>
     </main>

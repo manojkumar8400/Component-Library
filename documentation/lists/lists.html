@@ -5,123 +5,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.clipartmax.com/png/full/414-4147696_favicon-ico-news-favicon.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="lists.css">
     <title>List</title>
 </head>
 
 <body>
-    <nav class="nav">
-        <a href="/index.html" class="link">
-            <span class="nav-header">Home</span>
-        </a>
-        <ul class="nav-list">
-            <li><a class="link" target="_blank" href="https://github.com/manojkumar8400">
-                    Github
-                </a>
-            </li>
-            <li><a class="link" target="_blank" href="https://twitter.com/@manoj21_kumar">
-                    Twitter
-                </a>
-            </li>
-        </ul>
-    </nav>
+    <!--    Header bar -->
+    <header class="nav">
+        <a href="/index.html">Iconic UI</a>
+        <a href="https://github.com/manojkumar8400"><i class="fa fa-github github-logo"></i></a>
+    </header>
     <main class="main-container">
+        <!--    Side bar -->
         <ul class="side-bar">
-            <h2 class="side-bar-heading">Components</h2>
-            <li><a href="/documentation/avatar/avatar.html">Avatar</a> </li>
+            <h1 class="side-bar-heading">Components</h1>
             <li><a href="/documentation/alert/alert.html">Alert</a></li>
+            <li><a href="/documentation/avatar/avatar.html">Avatar</a> </li>
             <li><a href="/documentation/badge/badge.html">Badge</a></li>
             <li><a href="/documentation/button/button.html">Button</a></li>
             <li><a href="/documentation/card/card.html">Card</a></li>
             <li><a href="/documentation/image-comp/image.html">Image</a></li>
             <li><a href="/documentation/input/input.html">Input</a></li>
-            <li><a href="/documentation/text-utilities/text.html">Text Utilities</a></li>
-            <li><a href="/documentation/navigation/navigatio.html">Navigation</a></li>
-            <li><a href="/documentation/rating-compo/rating.html">Rating</a></li>
-            <li><a href="/documentation/slider/slider.html">Slider</a></li>
-            <li><a href="/documentation/model/model.html">Modal</a></li>
-            <li><a href="/documentation/simplified-grid/grid.html">Simplified Grid</a></li>
-            <li><a href="/documentation/toast/toast.html">Toast/Snackbar</a></li>
             <li id="side-bar-style"><a href="/documentation/lists/lists.html">Lists</a></li>
+            <li><a href="/documentation/model/model.html">Modal</a></li>
+            <li><a href="/documentation/navigation/navigation.html">Navigation</a></li>
+            <li><a href="/documentation/rating-compo/rating.html">Rating</a></li>
+            <li><a href="/documentation/simplified-grid/grid.html">Simplified Grid</a></li>
+            <li><a href="/documentation/slider/slider.html">Slider</a></li>
+            <li><a href="/documentation/text-utilities/text.html">Text Utilities</a></li>
+            <li><a href="/documentation/toast/toast.html">Toast/Snackbar</a></li>
         </ul>
+
+        <!--    Body container -->
         <div class="body-container">
+            <section>
+                <h1 class="fs-large">List </h1>
+                <p>The HTML element is used to represent an item in a list. It must be contained in a parent element: an
+                    ordered
+                    list , an unordered list , or a menu . In menus and unordered lists, list items are usually
+                    displayed
+                    using
+                    bullet points. In ordered lists, they are usually displayed with an ascending counter on the left,
+                    such
+                    as a
+                    number or letter.
 
-            <h1>List </h1>
-            <p>The HTML element is used to represent an item in a list. It must be contained in a parent element: an
-                ordered
-                list , an unordered list , or a menu . In menus and unordered lists, list items are usually displayed
-                using
-                bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such
-                as a
-                number or letter.
-
-            </p>
-            <hr>
-            <div class="text-center">
-                <h2>Spaced List</h2>
-                <div class="spaced-list">
-                    <li class="spaced">One </li>
-                    <li class="spaced">Two</li>
-                    <li class="spaced">Three</li>
-                    <li class="spaced">Four</li>
-                    <li class="spaced">Five</li>
-                </div>
-                <div class="code-container">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522spaced-list%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522spaced%2522%253EOne%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522spaced%2522%253ETwo%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522spaced%2522%253EThree%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522spaced%2522%253EFour%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522spaced%2522%253EFive%253C%252Fli%253E%250A%253C%252Fdiv%253E"
-                        style="width: 428px; height: 322px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <hr>
-                <h2>Stacked List (Notification Page)</h2>
-
-                <div class="stacked-list">
-                    <li class="stacked">Message 1</li>
-                    <li class="stacked">Message 2</li>
-                    <li class="stacked">Message 3</li>
-                    <li class="stacked">Message 4</li>
-                    <li class="stacked">Message 5</li>
-                </div>
-                <hr>
+                </p>
                 <div>
-                    <h2>Unordered List</h2>
-                    <ul class="unordered-list">
-                        <li>One</li>
-                        <li>Two</li>
-                        <li>Three</li>
-                        <li>Four</li>
-                        <li>Five</li>
-                    </ul>
+                    <div class="utilities-container">
+                        <h2>Spaced List</h2>
+                        <ul class="spaced-list">
+                            <li>One </li>
+                            <li>Two</li>
+                            <li>Three</li>
+                            <li>Four</li>
+                        </ul>
+                        <div class="code-container">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522spaced-list%2522%253E%250A%2520%2520%2520%2520%253Cli%253EOne%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ETwo%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EThree%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EFour%253C%252Fli%253E%250A%253C%252Ful%253E"
+                                style="width: 352px; height: 304px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="utilities-container">
+                        <h2>Stacked List (Notification Page)</h2>
+                        <ul class="stacked-list">
+                            <li> <span>Message 1</span> <i class="fa fa-close bg-red"></i> </li>
+                            <li> <span>Message 2</span> <i class="fa fa-close bg-green"></i> </li=>
+                            <li> <span>Message 3</span> <i class="fa fa-close bg-blue"></i> </li=>
+                            <li> <span>Message 4</span> <i class="fa fa-close bg-wheat"></i> </li=>
+                        </ul>
+                        <div class="code-container">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522stacked-list%2522%253E%250A%2520%2520%2520%2520%253Cli%253E%2520%253Cspan%253EMessage%25201%253C%252Fspan%253E%2520%253Ci%2520class%253D%2522fa%2520fa-close%2520bg-red%2522%253E%253C%252Fi%253E%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%2520%253Cspan%253EMessage%25202%253C%252Fspan%253E%2520%253Ci%2520class%253D%2522fa%2520fa-close%2520bg-green%2522%253E%253C%252Fi%253E%2520%253C%252Fli%253D%253E%250A%2520%2520%2520%2520%253Cli%253E%2520%253Cspan%253EMessage%25203%253C%252Fspan%253E%2520%253Ci%2520class%253D%2522fa%2520fa-close%2520bg-blue%2522%253E%253C%252Fi%253E%2520%253C%252Fli%253D%253E%250A%2509%253Cli%253E%2520%253Cspan%253EMessage%25204%253C%252Fspan%253E%2520%253Ci%2520class%253D%2522fa%2520fa-close%2520bg-wheat%2522%253E%253C%252Fi%253E%2520%253C%252Fli%253D%253E%250A%253C%252Ful%253E"
+                                style="width: 682px; height: 304px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="utilities-container">
+                        <div class="list-section">
+                            <h2>Unordered List</h2>
+                            <ul class="unordered-list">
+                                <li>One</li>
+                                <li>Two</li>
+                                <li>Three</li>
+                                <li>Four</li>
+                                <li>Five</li>
+                            </ul>
+                        </div>
+                        <div class="code-container">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-section%2522%253E%250A%2520%2520%2520%253Ch2%253EUnordered%2520List%253C%252Fh2%253E%250A%2520%2520%2520%253Cul%2520class%253D%2522unordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EOne%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ETwo%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EThree%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EFour%253C%252Fli%253E%250A%2520%2520%2520%2520%2509%253Cli%253EFive%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                                style="width: 403px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="utilities-container">
+                        <section class="list-section">
+                            <h2>Ordered List</h2>
+                            <ol class="ordered-list">
+                                <li>One</li>
+                                <li>Two</li>
+                                <li>Three</li>
+                                <li>Four</li>
+                                <li>Five</li>
+                            </ol>
+                        </section>
+                        <div class="code-container">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522list-section%2522%253E%250A%2520%2520%2520%2520%253Ch2%253EOrdered%2520List%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Col%2520class%253D%2522ordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EOne%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ETwo%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EThree%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EFour%253C%252Fli%253E%250A%2520%2520%2520%2520%2509%253Cli%253EFive%253C%252Fli%253E%250A%2509%253C%252Fol%253E%250A%253C%252Fsection%253E"
+                                style="width: 403px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
                 </div>
-                <div class="code-container">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522unordered-list%2522%253E%250A%2520%2520%2520%2520%253Cli%253EOne%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ETwo%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EThree%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EFour%253C%252Fli%253E%250A%2509%253Cli%253EFive%253C%252Fli%253E%250A%253C%252Ful%253E"
-                        style="width: 378px; height: 322px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <hr>
-                <div>
-                    <h2>Ordered List</h2>
-                    <ol class="ordered-list">
-                        <li>One</li>
-                        <li>Two</li>
-                        <li>Three</li>
-                        <li>Four</li>
-                        <li>Five</li>
-                    </ol>
-                </div>
-                <div class="code-container">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Col%2520class%253D%2522ordered-list%2522%253E%250A%2520%2520%2520%2520%253Cli%253EOne%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ETwo%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EThree%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EFour%253C%252Fli%253E%250A%2509%253Cli%253EFive%253C%252Fli%253E%250A%253C%252Fol%253E"
-                        style="width: 369px; height: 322px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
+            </section>
+
+            <!--    Footer -->
             <footer class="footer">
-                <button class="previous-btn footer-btn"><a href="/documentation/toast/toast.html">Previous</a></button>
+                <button><a href="/documentation/input/input.html"><i class="fa fa-chevron-left"></i> <span
+                            class="fs-medium">Input</span></a></button>
+                <button><a href="/documentation/model/model.html"><span class="fs-medium">Modal</span> <i
+                            class="fa fa-chevron-right"></i></a></button>
             </footer>
         </div>
     </main>

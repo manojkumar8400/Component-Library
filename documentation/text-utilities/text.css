@@ -4,6 +4,36 @@
     margin-top: 1rem;
 }
 
+.heading-section div:nth-child(1){
+    font-size: 2.8rem;
+    font-weight: 550;
+}
+
+.heading-section div:nth-child(2){
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+.heading-section div:nth-child(3){
+    font-size: 2.1rem;
+    font-weight: 550;
+}
+
+.heading-section div:nth-child(4){
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+
+.heading-section div:nth-child(5){
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.heading-section div:nth-child(6){
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
 .heading-cont {
     border: 2px solid var(--dark-gray);
     margin-left: 1rem;
@@ -15,20 +45,20 @@
     margin: 0 0 2rem 1rem;
 }
 
-.x-large-txt {
+.txt-size-section p:nth-child(1) {
     font-size: 2rem;
 }
 
-.large-txt {
+.txt-size-section p:nth-child(2) {
     font-size: 1.5rem;
 }
 
-.medium-txt {
+.txt-size-section p:nth-child(3) {
     font-size: 1.1rem;
 }
 
-.small-txt {
-    font-size: .8rem;
+.txt-size-section p:nth-child(4) {
+    font-size: 1rem;
 }
 
 .gray-txt {
