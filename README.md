@@ -90,6 +90,3 @@ To use component library in your project, copy the CDN link and paste it in the 
   * Gray Text
   * Alignment Text
   * Transform Text
-
-* [Toast](https://component-library-48ff05.netlify.app/documentation/toast/toast.html)
-  * Simple Toast
