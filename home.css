@@ -1,98 +1,80 @@
 @import '/documentation/Styles/general.css';
 
-.main-container {
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
     position: relative;
 }
 
-.sec-intro {
+.header {
+    background-color: var(--header);
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
+    justify-content: space-between;
+    padding: 1.4rem 3rem;
 }
 
-.intro-img {
-    width: 45%;
-    height: 50vh;
+.logo {
+    width: 3rem;
+}
+
+.intro-section {
+    display: grid;
+    grid-template-columns: 35rem 30rem;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
     position: absolute;
+    top: 16%;
+    text-align: center;
+}
+
+.img {
+    width: 35rem;
     right: 2.5rem;
     top: 12.5rem;
     border-radius: .7rem;
 }
 
-.txt-container {
-    width: 50%;
+.install-section{
+    display: grid;
+    grid-template-columns: 35rem 30rem;
+    justify-content: space-around;
+    width: 98%;
     position: absolute;
-    top: 18rem;
+    bottom: 14%;
     text-align: center;
 }
 
 .txt-heading {
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
-.txt-para {
-    font-size: 1.3rem;
-    font-family: 'Playfair Display', serif;
-}
-
-.btn {
-    margin-top: 2.7rem;
-    font-size: 1.7rem;
-    padding: .8rem 1.2rem;
+.start-btn {
+    font-size: 1.5rem;
+    padding: .7rem 1.2rem;
     border-radius: .7rem;
-    border: 3px solid var(--black);
+    border: none;
+    background-color: var(--header);
 }
 
-.footer {
-    display: grid;
-    grid-template-rows: 3rem 4.5rem;
+.footer-bar {
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 73vh;
-    padding: .7rem;
+    padding: .8rem;
     background-color: var(--header);
 }
 
 .primary-txt {
-    font-weight: 500;
     text-align: center;
 }
 
 .footer-link {
-    font-size: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
 }
 
-.footer-icon {
-    width: 3rem;
-    height: 3rem;
-    margin: .7rem 1.2rem;
-}
-
-@media screen and (max-width: 780px) {
-    .intro-img {
-        width: 45%;
-        height: 40vh;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    html {
-        font-size: 13px;
-    }
-
-    .intro-img {
-        width: 45%;
-        height: 30vh;
-    }
-}
-
-@media screen and (max-width: 490px) {
-    .nav-list {
-        display: grid;
-        grid-template-columns: repeat(3, 70px);
-    }
+.footer-link a{
+    font-size: 1.8rem;
 }

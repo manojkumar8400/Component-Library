@@ -1,64 +1,53 @@
 @import "/documentation/Styles/general.css";
 
-.para {
-    margin: 1rem 0;
+.badge-section {
+    position: relative;
+    margin: 1.5rem 1rem;
+}
+
+.button-badge-section {
+    margin-top: 1rem;
+}
+
+.txt-size {
     font-size: 1.2rem;
-    position: relative;
-}
-
-.txt {
-    position: relative;
-}
-
-.sm-badge-on-txt {
-    background-color: var(--dark-color);
-    padding: 0 .6rem;
-    border-radius: 50%;
-    font-size: .8rem;
-    position: absolute;
-    font-weight: bold;
-    bottom: 1.2rem;
 }
 
 .active-btn {
     padding: .6rem .9rem;
+    border-radius: 5px;
     font-size: 1.1rem;
-    position: relative;
+    background-color: var(--header);
 }
 
-.badge-on-active-btn {
+.badge-on-btn {
     background-color: var(--dark-color);
-    padding: .4rem .6rem;
+    padding: .3rem .7rem;
     border-radius: 50%;
     font-size: .8rem;
     font-weight: bold;
     position: absolute;
-    bottom: 2rem;
+    bottom: 1rem;
+    right: -8%;
 }
 
 .home-icon {
     font-size: 1.5rem;
-    position: relative;
 }
 
-.badge-on-home-icon {
+.badge-on-icon {
     background-color: var(--dark-color);
-    padding: 0 .6rem;
+    padding: 0 .5rem;
     border-radius: 50%;
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: bold;
     position: absolute;
-    bottom: 1.2rem;
-    left: 1rem;
+    bottom: 1.3rem;
+    left: 50%;
 }
 
-.avtr-cont {
-    position: relative;
-}
-
-.onln-dot-badge-avtr {
+.avtar-img {
     width: 5.6rem;
-    height: auto;
     border-radius: 50%;
     border: 2px solid var(--dark-gray);
 }
@@ -74,23 +63,7 @@
     border: 3px solid var(--white);
 }
 
-.onln-brdr-badge-avtr {
-    margin-left: 1.8rem;
-    width: 5.6rem;
-    height: auto;
-    border-radius: 50%;
-    border: 5px solid var(--success);
-}
-
-.ofln-tm-badge-avtr {
-    margin-top: 1.8rem;
-    width: 5.6rem;
-    height: auto;
-    border-radius: 50%;
-    border: 2px solid var(--dark-gray);
-}
-
-.ofln-tm-badge {
+.ofln-time-badge {
     background-color: var(--success);
     border: 3px solid var(--white);
     color: var(--white);
@@ -99,33 +72,18 @@
     padding: 0 .4rem;
     position: absolute;
     bottom: .6rem;
-    right: .6rem;
+    right: .3rem;
+}
+
+.onln-brdr-badge-avtr {
+    margin-left: 1.8rem;
+    width: 5.6rem;
+    border-radius: 50%;
+    border: 5px solid var(--success);
 }
 
 .ofln-brdr-badge-avtr {
-    margin-left: 1.8rem;
     width: 5.6rem;
-    height: auto;
     border-radius: 50%;
     border: 5px solid var(--danger);
-}
-
-@media screen and (max-width: 824px) {
-    html {
-        font-size: 14px;
-    }
-
-    .side-bar {
-        margin-top: 40px;
-    }
-
-    .body-container {
-        margin-top: 60px;
-    }
-}
-
-@media screen and (max-width: 715px) {
-    html {
-        font-size: 11px;
-    }
 }

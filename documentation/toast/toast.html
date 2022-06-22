@@ -5,46 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.clipartmax.com/png/full/414-4147696_favicon-ico-news-favicon.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/documentation/toast/toast.css">
     <title>Toast</title>
 </head>
 
 <body>
-    <nav class="nav">
-        <a href="/index.html" class="link">
-            <span class="nav-header">🏠</span>
-        </a>
-        <ul class="nav-list">
-            <li><a class="link" target="_blank" href="https://github.com/manojkumar8400">
-                    Github
-                </a>
-            </li>
-            <li><a class="link" target="_blank" href="https://twitter.com/@manoj21_kumar">
-                    Twitter
-                </a>
-            </li>
-        </ul>
-    </nav>
+    <!--    Header bar -->
+    <header class="nav">
+        <a href="/index.html">Iconic UI</a>
+        <a href="https://github.com/manojkumar8400"><i class="fa fa-github github-logo"></i></a>
+    </header>
     <main class="main-container">
         <ul class="side-bar">
-            <h2 class="side-bar-heading">Components</h2>
-            <li><a href="/documentation/avatar/avatar.html">Avatar</a> </li>
+            <h1 class="side-bar-heading">Components</h1>
             <li><a href="/documentation/alert/alert.html">Alert</a></li>
+            <li><a href="/documentation/avatar/avatar.html">Avatar</a> </li>
             <li><a href="/documentation/badge/badge.html">Badge</a></li>
             <li><a href="/documentation/button/button.html">Button</a></li>
             <li><a href="/documentation/card/card.html">Card</a></li>
             <li><a href="/documentation/image-comp/image.html">Image</a></li>
             <li><a href="/documentation/input/input.html">Input</a></li>
-            <li><a href="/text-utilities/text.html">Text Utilities</a></li>
-            <li><a href="/documentation/navigation/navigatio.html">Navigation</a></li>
-            <li><a href="/documentation/rating-compo/rating.html">Rating</a></li>
-            <li><a href="/documentation/slider/slider.html">Slider</a></li>
-            <li><a href="/documentation/model/model.html">Modal</a></li>
-            <li><a href="/documentation/simplified-grid/grid.html">Simplified Grid</a></li>
-            <li id="side-bar-style"><a href="/documentation/toast/toast.html">Toast/Snackbar</a></li>
             <li><a href="/documentation/lists/lists.html">Lists</a></li>
+            <li><a href="/documentation/model/model.html">Modal</a></li>
+            <li><a href="/documentation/navigation/navigation.html">Navigation</a></li>
+            <li><a href="/documentation/rating-compo/rating.html">Rating</a></li>
+            <li><a href="/documentation/simplified-grid/grid.html">Simplified Grid</a></li>
+            <li><a href="/documentation/slider/slider.html">Slider</a></li>
+            <li><a href="/documentation/text-utilities/text.html">Text Utilities</a></li>
+            <li id="side-bar-style"><a href="/documentation/toast/toast.html">Toast/Snackbar</a></li>
         </ul>
-        <div class="container">
+        <div class="body-container">
             <h1>Toast</h1>
             <p>
                 Used to provide simple & quick message/instruction triggered by an action in the website by the user.
@@ -52,13 +45,13 @@
             <p>
                 Here three simple types of toast
             </p>
-            <hr>
-            <div class="toast-type">
+            <div class="toast-type utilities-container">
+                <h2>Basic Toast</h2>
                 <div class="toast-1">
                     <span class="vertical-line">||</span>
                     <span>Retry after 5 minute</span>
                     <a>Click here</a>
-                    <button class="x-btn">X</button>
+                    <button class="x-btn"><i class="fa fa-close x-btn"></i></button>
                 </div>
                 <div class="div-container">
                     <iframe
@@ -67,39 +60,10 @@
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
-                <hr>
-                <div class="toast-2">
-                    <span>||</span>
-                    <span>Primary toast</span>
-                    <a>Click here</a>
-                    <button class="x-btn">X</button>
-                </div>
-                <hr>
-                <div class="toast-3">
-                    <div class="cancel-div">
-                        <span>just now</span>
-                        <button class="x-btn btn">X</button>
-                    </div>
-                    <div>
-                        <span>hello, world! This is a toast message</span>
-                    </div>
-                </div>
-                <hr>
-                <h3>Demo of the general use case of a toast</h3>
-                <div class="demo-container">
-                    <button class="click-btn">Toast</button>
-                    <div class="toast">
-                        <span>||</span>
-                        <span>Retry after 5 minute</span>
-                        <a>Click here</a>
-                        <button class="x-btn" id="cancel">X</button>
-                    </div>
-                </div>
             </div>
             <footer class="footer">
-                <button class="previous-btn footer-btn"><a
-                        href="/documentation/simplified-grid/grid.html">Previous</a></button>
-                <button class="next-btn footer-btn"><a href="/documentation/lists/lists.html">Next</a></button>
+                <button><a href="/documentation/text-utilities/text.html"> <i class="fa fa-chevron-left"></i> <span
+                            class="fs-medium">Text</span></a></button>
             </footer>
         </div>
     </main>
