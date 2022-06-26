@@ -39,12 +39,16 @@
 
 .install-section{
     display: grid;
-    grid-template-columns: 35rem 30rem;
+    grid-template-columns: 35rem 43rem;
     justify-content: space-around;
-    width: 98%;
+    width: 100%;
     position: absolute;
     bottom: 14%;
     text-align: center;
+}
+
+.iframe-c{
+    margin-left: 7rem;
 }
 
 .txt-heading {
