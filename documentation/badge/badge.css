@@ -22,13 +22,13 @@
 
 .badge-on-btn {
     background-color: var(--dark-color);
-    padding: .3rem .7rem;
+    padding: .2rem .5rem;
     border-radius: 50%;
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: bold;
     position: absolute;
-    bottom: 1rem;
-    right: -8%;
+    bottom: 110%;
+    right: -13%;
 }
 
 .home-icon {

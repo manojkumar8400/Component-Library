@@ -15,8 +15,10 @@
     padding: 1.4rem 3rem;
 }
 
-.logo {
-    width: 3rem;
+.home-body-section {
+    display: grid;
+    justify-content: space-between;
+    gap: 3rem;
 }
 
 .intro-section {
@@ -25,30 +27,30 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
-    top: 16%;
     text-align: center;
 }
 
 .img {
-    width: 35rem;
-    right: 2.5rem;
-    top: 12.5rem;
+    width: 33rem;
     border-radius: .7rem;
 }
 
-.install-section{
+.install-section {
     display: grid;
-    grid-template-columns: 35rem 43rem;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-around;
+    align-items: center;
     width: 100%;
-    position: absolute;
-    bottom: 14%;
     text-align: center;
 }
 
-.iframe-c{
-    margin-left: 7rem;
+.install-para {
+    width: 35rem;
+    margin: auto;
+}
+
+.iframe-c {
+    margin-left: 6rem;
 }
 
 .txt-heading {
@@ -79,6 +81,6 @@
     justify-content: center;
 }
 
-.footer-link a{
+.footer-link a {
     font-size: 1.8rem;
 }
