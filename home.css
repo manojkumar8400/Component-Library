@@ -22,35 +22,30 @@
 }
 
 .intro-section {
-    display: grid;
-    grid-template-columns: 35rem 30rem;
-    width: 100%;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    width: 100vw;
 }
 
 .img {
     width: 33rem;
     border-radius: .7rem;
+    margin-right: 3rem;
 }
 
 .install-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     text-align: center;
+    width: 100vw;
 }
 
-.install-para {
+.para {
     width: 35rem;
     margin: auto;
-}
-
-.iframe-c {
-    margin-left: 6rem;
 }
 
 .txt-heading {
