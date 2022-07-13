@@ -7,7 +7,7 @@ It's a component Library,you can use it to make your ui beautiful.
 To use component library in your project, copy the CDN link and paste it in the <head> of the <HTML> file of your project.
 
 ```HTML
-<link rel="stylesheet" href="https://euphonious-platypus-.netlify.app/documentation/Styles/general.css"/>
+<link rel="stylesheet" href="https://iconic-ui.netlify.app/documentation/Styles/general.css"/>
 ```
 
 ## How to use?
